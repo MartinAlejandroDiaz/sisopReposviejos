@@ -1,0 +1,130 @@
+[INFO] 18:18:34:157 CPU/(9537:9537): Se Creo El Archivo Log de CPU
+[INFO] 18:18:34:157 CPU/(9537:9537): Verificando que exista el archivo CPU.config
+[INFO] 18:18:34:170 CPU/(9537:9537): Se verifico que existe CPU.config
+[INFO] 18:18:34:171 CPU/(9537:9537): Voy a leer del archivo CPU.config
+[INFO] 18:18:34:171 CPU/(9537:9537): Voy a cargar los datos
+[INFO] 18:18:34:172 CPU/(9537:9537): IP_SAFA: 127.0.0.1
+[INFO] 18:18:34:172 CPU/(9537:9537): S-AFA_PUERTO: 8001
+[INFO] 18:18:34:172 CPU/(9537:9537): IP_DAM: 127.0.0.2
+[INFO] 18:18:34:173 CPU/(9537:9537): DAM_PUERTO: 8000
+[INFO] 18:18:34:173 CPU/(9537:9537): IP_FM9: 127.0.0.3
+[INFO] 18:18:34:173 CPU/(9537:9537): FM9_PUERTO: 8003
+[INFO] 18:18:34:174 CPU/(9537:9537): RETARDO: 1
+[INFO] 18:18:34:174 CPU/(9537:9537): Todos los Datos Fueron Cargados
+[INFO] 18:18:34:177 CPU/(9537:9537): me conecto al DAM
+[INFO] 18:18:35:181 CPU/(9537:9537): me conecto al SAFA
+[TRACE] 18:18:35:183 CPU/(9537:9541): QUANTUM = 2
+[TRACE] 18:18:35:183 CPU/(9537:9541): ID de CPU =  1
+[INFO] 18:18:36:185 CPU/(9537:9537): me conecto al FM9
+[TRACE] 18:19:26:129 CPU/(9537:9541): Ejecutando el GDT de id 1
+
+[INFO] 18:19:26:130 CPU/(9537:9541): La ruta Script es: ejemplo2.txt
+[INFO] 18:19:26:130 CPU/(9537:9541): El Program Counter se encuentra en: 0
+[INFO] 18:19:26:130 CPU/(9537:9541): El flag de inicializacion es: 1
+[INFO] 18:19:26:130 CPU/(9537:9541): El quantum a ejecutar es: 2
+[TRACE] 18:19:27:146 CPU/(9537:9541): Sentencia: wait AFA
+
+[INFO] 18:19:53:725 CPU/(9537:9537): ..Desconectado..
+[INFO] 18:19:53:725 CPU/(9537:9537): Cierro log de CPU
+[INFO] 18:19:58:305 CPU/(9603:9603): Se Creo El Archivo Log de CPU
+[INFO] 18:19:58:305 CPU/(9603:9603): Verificando que exista el archivo CPU.config
+[INFO] 18:19:58:306 CPU/(9603:9603): Se verifico que existe CPU.config
+[INFO] 18:19:58:306 CPU/(9603:9603): Voy a leer del archivo CPU.config
+[INFO] 18:19:58:307 CPU/(9603:9603): Voy a cargar los datos
+[INFO] 18:19:58:307 CPU/(9603:9603): IP_SAFA: 127.0.0.1
+[INFO] 18:19:58:307 CPU/(9603:9603): S-AFA_PUERTO: 8001
+[INFO] 18:19:58:307 CPU/(9603:9603): IP_DAM: 127.0.0.2
+[INFO] 18:19:58:308 CPU/(9603:9603): DAM_PUERTO: 8000
+[INFO] 18:19:58:308 CPU/(9603:9603): IP_FM9: 127.0.0.3
+[INFO] 18:19:58:309 CPU/(9603:9603): FM9_PUERTO: 8003
+[INFO] 18:19:58:309 CPU/(9603:9603): RETARDO: 1
+[INFO] 18:19:58:310 CPU/(9603:9603): Todos los Datos Fueron Cargados
+[INFO] 18:19:58:312 CPU/(9603:9603): me conecto al DAM
+[INFO] 18:19:59:315 CPU/(9603:9603): me conecto al SAFA
+[TRACE] 18:19:59:317 CPU/(9603:9607): QUANTUM = 2
+[TRACE] 18:19:59:317 CPU/(9603:9607): ID de CPU =  2
+[INFO] 18:20:00:318 CPU/(9603:9603): me conecto al FM9
+[TRACE] 18:20:06:558 CPU/(9603:9607): Ejecutando el GDT de id 2
+
+[INFO] 18:20:06:558 CPU/(9603:9607): La ruta Script es: ejemplo2.txt
+[INFO] 18:20:06:558 CPU/(9603:9607): El Program Counter se encuentra en: 0
+[INFO] 18:20:06:558 CPU/(9603:9607): El flag de inicializacion es: 1
+[INFO] 18:20:06:558 CPU/(9603:9607): El quantum a ejecutar es: 2
+[TRACE] 18:20:07:559 CPU/(9603:9607): Sentencia: wait AFA
+
+[INFO] 18:20:20:662 CPU/(9603:9603): ..Desconectado..
+[INFO] 18:20:20:662 CPU/(9603:9603): Cierro log de CPU
+[INFO] 18:20:24:91 CPU/(9627:9627): Se Creo El Archivo Log de CPU
+[INFO] 18:20:24:91 CPU/(9627:9627): Verificando que exista el archivo CPU.config
+[INFO] 18:20:24:92 CPU/(9627:9627): Se verifico que existe CPU.config
+[INFO] 18:20:24:92 CPU/(9627:9627): Voy a leer del archivo CPU.config
+[INFO] 18:20:24:92 CPU/(9627:9627): Voy a cargar los datos
+[INFO] 18:20:24:93 CPU/(9627:9627): IP_SAFA: 127.0.0.1
+[INFO] 18:20:24:93 CPU/(9627:9627): S-AFA_PUERTO: 8001
+[INFO] 18:20:24:94 CPU/(9627:9627): IP_DAM: 127.0.0.2
+[INFO] 18:20:24:94 CPU/(9627:9627): DAM_PUERTO: 8000
+[INFO] 18:20:24:95 CPU/(9627:9627): IP_FM9: 127.0.0.3
+[INFO] 18:20:24:95 CPU/(9627:9627): FM9_PUERTO: 8003
+[INFO] 18:20:24:96 CPU/(9627:9627): RETARDO: 1
+[INFO] 18:20:24:96 CPU/(9627:9627): Todos los Datos Fueron Cargados
+[INFO] 18:20:24:97 CPU/(9627:9627): me conecto al DAM
+[INFO] 18:20:25:100 CPU/(9627:9627): me conecto al SAFA
+[TRACE] 18:20:25:100 CPU/(9627:9631): QUANTUM = 2
+[TRACE] 18:20:25:100 CPU/(9627:9631): ID de CPU =  3
+[INFO] 18:20:26:103 CPU/(9627:9627): me conecto al FM9
+[TRACE] 18:20:31:542 CPU/(9627:9631): Ejecutando el GDT de id 3
+
+[INFO] 18:20:31:542 CPU/(9627:9631): La ruta Script es: ejemplo2.txt
+[INFO] 18:20:31:542 CPU/(9627:9631): El Program Counter se encuentra en: 0
+[INFO] 18:20:31:542 CPU/(9627:9631): El flag de inicializacion es: 1
+[INFO] 18:20:31:542 CPU/(9627:9631): El quantum a ejecutar es: 2
+[TRACE] 18:20:32:543 CPU/(9627:9631): Sentencia: wait AFA
+
+[INFO] 18:20:45:878 CPU/(9627:9627): ..Desconectado..
+[INFO] 18:20:45:879 CPU/(9627:9627): Cierro log de CPU
+[INFO] 18:20:50:248 CPU/(9657:9657): Se Creo El Archivo Log de CPU
+[INFO] 18:20:50:248 CPU/(9657:9657): Verificando que exista el archivo CPU.config
+[INFO] 18:20:50:249 CPU/(9657:9657): Se verifico que existe CPU.config
+[INFO] 18:20:50:249 CPU/(9657:9657): Voy a leer del archivo CPU.config
+[INFO] 18:20:50:249 CPU/(9657:9657): Voy a cargar los datos
+[INFO] 18:20:50:250 CPU/(9657:9657): IP_SAFA: 127.0.0.1
+[INFO] 18:20:50:250 CPU/(9657:9657): S-AFA_PUERTO: 8001
+[INFO] 18:20:50:250 CPU/(9657:9657): IP_DAM: 127.0.0.2
+[INFO] 18:20:50:251 CPU/(9657:9657): DAM_PUERTO: 8000
+[INFO] 18:20:50:251 CPU/(9657:9657): IP_FM9: 127.0.0.3
+[INFO] 18:20:50:252 CPU/(9657:9657): FM9_PUERTO: 8003
+[INFO] 18:20:50:252 CPU/(9657:9657): RETARDO: 1
+[INFO] 18:20:50:252 CPU/(9657:9657): Todos los Datos Fueron Cargados
+[INFO] 18:20:50:254 CPU/(9657:9657): me conecto al DAM
+[INFO] 18:20:51:257 CPU/(9657:9657): me conecto al SAFA
+[TRACE] 18:20:51:259 CPU/(9657:9661): QUANTUM = 2
+[TRACE] 18:20:51:259 CPU/(9657:9661): ID de CPU =  4
+[INFO] 18:20:52:260 CPU/(9657:9657): me conecto al FM9
+[INFO] 18:21:10:714 CPU/(9657:9659): ..Desconectado..
+[INFO] 18:21:11:463 CPU/(9657:9664): ..Desconectado..
+[INFO] 18:21:38:324 CPU/(9789:9789): Se Creo El Archivo Log de CPU
+[INFO] 18:21:38:324 CPU/(9789:9789): Verificando que exista el archivo CPU.config
+[INFO] 18:21:38:325 CPU/(9789:9789): Se verifico que existe CPU.config
+[INFO] 18:21:38:325 CPU/(9789:9789): Voy a leer del archivo CPU.config
+[INFO] 18:21:38:326 CPU/(9789:9789): Voy a cargar los datos
+[INFO] 18:21:38:326 CPU/(9789:9789): IP_SAFA: 127.0.0.1
+[INFO] 18:21:38:326 CPU/(9789:9789): S-AFA_PUERTO: 8001
+[INFO] 18:21:38:327 CPU/(9789:9789): IP_DAM: 127.0.0.2
+[INFO] 18:21:38:327 CPU/(9789:9789): DAM_PUERTO: 8000
+[INFO] 18:21:38:327 CPU/(9789:9789): IP_FM9: 127.0.0.3
+[INFO] 18:21:38:328 CPU/(9789:9789): FM9_PUERTO: 8003
+[INFO] 18:21:38:328 CPU/(9789:9789): RETARDO: 1
+[INFO] 18:21:38:328 CPU/(9789:9789): Todos los Datos Fueron Cargados
+[INFO] 18:21:38:331 CPU/(9789:9789): me conecto al DAM
+[INFO] 18:21:39:333 CPU/(9789:9789): me conecto al SAFA
+[TRACE] 18:21:39:335 CPU/(9789:9793): QUANTUM = 2
+[TRACE] 18:21:39:335 CPU/(9789:9793): ID de CPU =  1
+[INFO] 18:21:40:334 CPU/(9789:9789): me conecto al FM9
+[TRACE] 18:21:47:119 CPU/(9789:9793): Ejecutando el GDT de id 1
+
+[INFO] 18:21:47:119 CPU/(9789:9793): La ruta Script es: ejemplo2.txt
+[INFO] 18:21:47:120 CPU/(9789:9793): El Program Counter se encuentra en: 0
+[INFO] 18:21:47:120 CPU/(9789:9793): El flag de inicializacion es: 1
+[INFO] 18:21:47:120 CPU/(9789:9793): El quantum a ejecutar es: 2
+[TRACE] 18:21:48:120 CPU/(9789:9793): Sentencia: wait AFA
+

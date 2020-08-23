@@ -1,0 +1,4 @@
+abrir /equipos/Racing.txt
+concentrar
+asignar /equipos/Racing.txt 9 GustavoBou
+concentrar

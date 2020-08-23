@@ -1,0 +1,1001 @@
+[DEBUG] 23:39:23:903 Broker/(3735:3735): Iniciando broker... (PID = 3735) 
+
+[INFO] 23:39:25:956 Broker/(3735:3741): Nueva conexion
+[INFO] 23:39:25:956 Broker/(3735:3741): Nueva suscripcion IP: '127.0.0.3' puerto: '5003' socket: '5' cola: 'CATCH_POKEMON'
+[INFO] 23:39:25:956 Broker/(3735:3743): Nueva conexion
+[INFO] 23:39:25:956 Broker/(3735:3743): Nueva suscripcion IP: '127.0.0.3' puerto: '5003' socket: '7' cola: 'GET_POKEMON'
+[INFO] 23:39:25:956 Broker/(3735:3745): Nueva conexion
+[INFO] 23:39:25:956 Broker/(3735:3745): Nueva suscripcion IP: '127.0.0.3' puerto: '5003' socket: '8' cola: 'NEW_POKEMON'
+[INFO] 23:39:34:230 Broker/(3735:3750): Nueva conexion
+[INFO] 23:39:34:233 Broker/(3735:3750): Llegada de un nuevo mensaje a la cola de mensajes NP
+[DEBUG] 23:39:34:234 Broker/(3735:3750): Se asigno el id = 0
+[DEBUG] 23:39:34:234 Broker/(3735:3750): Deserializar NEW [Largo|'pokemon'|posX|posY|cant]=[8|'Pikachu'|9|9|1]
+[DEBUG] 23:39:34:234 Broker/(3735:3750): Llegada de un nuevo mensaje NEW_POKEMON=[Largo|'pokemon'|posX|posY|cant]=[7|'Pikachu'|9|9|1]
+[INFO] 23:39:34:234 Broker/(3735:3750): Almacenamiento de NEW_POKEMON en memoria, posicion: 0
+[DEBUG] 23:39:34:234 Broker/(3735:3750): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:39:34:234 Broker/(3735:3750): broker_NP
+[DEBUG] 23:39:34:235 Broker/(3735:3750): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:39:34:235 Broker/(3735:3750): serializar new pokemon
+[DEBUG] 23:39:34:235 Broker/(3735:3750): Envio de un mensaje NEW [Largo|pokemon|posX|posY|cant|id] = [7|Pikachu|9|9|1|0]
+[INFO] 23:39:34:236 Broker/(3735:3753): Envío de un mensaje a un suscriptor socket: 8 (tamaño: 28)
+[DEBUG] 23:39:34:236 Broker/(3735:3753): Se recibio confirmacion de recepcion del proceso: 8
+[INFO] 23:39:34:237 Broker/(3735:3754): Nueva conexion
+[INFO] 23:39:34:237 Broker/(3735:3754): Llegada de un nuevo mensaje a la cola de mensajes NP
+[DEBUG] 23:39:34:237 Broker/(3735:3754): Se asigno el id = 1
+[DEBUG] 23:39:34:237 Broker/(3735:3754): Deserializar NEW [Largo|'pokemon'|posX|posY|cant]=[9|'Squirtle'|5|2|1]
+[DEBUG] 23:39:34:237 Broker/(3735:3754): Llegada de un nuevo mensaje NEW_POKEMON=[Largo|'pokemon'|posX|posY|cant]=[8|'Squirtle'|5|2|1]
+[INFO] 23:39:34:237 Broker/(3735:3754): Almacenamiento de NEW_POKEMON en memoria, posicion: 32
+[DEBUG] 23:39:34:237 Broker/(3735:3754): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:39:34:238 Broker/(3735:3754): broker_NP
+[DEBUG] 23:39:34:238 Broker/(3735:3754): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:39:34:238 Broker/(3735:3754): serializar new pokemon
+[DEBUG] 23:39:34:238 Broker/(3735:3754): Envio de un mensaje NEW [Largo|pokemon|posX|posY|cant|id] = [8|Squirtle|5|2|1|1]
+[INFO] 23:39:34:239 Broker/(3735:3757): Envío de un mensaje a un suscriptor socket: 8 (tamaño: 29)
+[DEBUG] 23:39:34:239 Broker/(3735:3757): Se recibio confirmacion de recepcion del proceso: 8
+[INFO] 23:39:34:240 Broker/(3735:3758): Nueva conexion
+[INFO] 23:39:34:240 Broker/(3735:3758): Llegada de un nuevo mensaje a la cola de mensajes NP
+[DEBUG] 23:39:34:240 Broker/(3735:3758): Se asigno el id = 2
+[DEBUG] 23:39:34:240 Broker/(3735:3758): Deserializar NEW [Largo|'pokemon'|posX|posY|cant]=[8|'Jolteon'|2|2|1]
+[DEBUG] 23:39:34:240 Broker/(3735:3758): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:39:34:240 Broker/(3735:3758): Se elimina el msg Pos: 0 Tamanio 32
+[DEBUG] 23:39:34:240 Broker/(3735:3758): Estado de la Cache luego de eliminar:
+[INFO] 23:39:34:241 Broker/(3735:3758): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 0
+[DEBUG] 23:39:34:241 Broker/(3735:3758): Llegada de un nuevo mensaje NEW_POKEMON=[Largo|'pokemon'|posX|posY|cant]=[7|'Jolteon'|2|2|1]
+[INFO] 23:39:34:241 Broker/(3735:3758): Almacenamiento de NEW_POKEMON en memoria, posicion: 0
+[DEBUG] 23:39:34:241 Broker/(3735:3758): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:39:34:241 Broker/(3735:3758): broker_NP
+[DEBUG] 23:39:34:242 Broker/(3735:3758): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:39:34:242 Broker/(3735:3758): serializar new pokemon
+[DEBUG] 23:39:34:242 Broker/(3735:3758): Envio de un mensaje NEW [Largo|pokemon|posX|posY|cant|id] = [7|Jolteon|2|2|1|2]
+[INFO] 23:39:34:243 Broker/(3735:3761): Envío de un mensaje a un suscriptor socket: 8 (tamaño: 28)
+[DEBUG] 23:39:34:243 Broker/(3735:3761): Se recibio confirmacion de recepcion del proceso: 8
+[INFO] 23:39:34:244 Broker/(3735:3762): Nueva conexion
+[INFO] 23:39:34:244 Broker/(3735:3762): Llegada de un nuevo mensaje a la cola de mensajes NP
+[DEBUG] 23:39:34:244 Broker/(3735:3762): Se asigno el id = 3
+[DEBUG] 23:39:34:244 Broker/(3735:3762): Deserializar NEW [Largo|'pokemon'|posX|posY|cant]=[8|'Flareon'|4|6|1]
+[DEBUG] 23:39:34:244 Broker/(3735:3762): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:39:34:244 Broker/(3735:3762): Se elimina el msg Pos: 32 Tamanio 32
+[DEBUG] 23:39:34:244 Broker/(3735:3762): Estado de la Cache luego de eliminar:
+[INFO] 23:39:34:244 Broker/(3735:3762): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 32
+[DEBUG] 23:39:34:245 Broker/(3735:3762): Llegada de un nuevo mensaje NEW_POKEMON=[Largo|'pokemon'|posX|posY|cant]=[7|'Flareon'|4|6|1]
+[INFO] 23:39:34:245 Broker/(3735:3762): Almacenamiento de NEW_POKEMON en memoria, posicion: 32
+[DEBUG] 23:39:34:245 Broker/(3735:3762): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:39:34:246 Broker/(3735:3762): broker_NP
+[DEBUG] 23:39:34:246 Broker/(3735:3762): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:39:34:246 Broker/(3735:3762): serializar new pokemon
+[DEBUG] 23:39:34:246 Broker/(3735:3762): Envio de un mensaje NEW [Largo|pokemon|posX|posY|cant|id] = [7|Flareon|4|6|1|3]
+[INFO] 23:39:34:246 Broker/(3735:3765): Envío de un mensaje a un suscriptor socket: 8 (tamaño: 28)
+[DEBUG] 23:39:34:246 Broker/(3735:3765): Se recibio confirmacion de recepcion del proceso: 8
+[INFO] 23:39:39:241 Broker/(3735:3776): Nueva conexion
+[INFO] 23:39:39:241 Broker/(3735:3776): Llegada de un nuevo mensaje a la cola de mensajes AP
+[DEBUG] 23:39:39:242 Broker/(3735:3776): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:39:39:242 Broker/(3735:3776): Se elimina el msg Pos: 0 Tamanio 32
+[DEBUG] 23:39:39:242 Broker/(3735:3776): Estado de la Cache luego de eliminar:
+[INFO] 23:39:39:242 Broker/(3735:3776): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 0
+[DEBUG] 23:39:39:242 Broker/(3735:3776): Llegada de un nuevo mensaje APPEARED_POKEMON=Largo|'pokemon'|posX|posY]=[7|'Pikachu'|9|9]
+[INFO] 23:39:39:243 Broker/(3735:3776): Almacenamiento de APPEARED_POKEMON en memoria, posicion : 0
+[DEBUG] 23:39:39:243 Broker/(3735:3776): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:39:39:243 Broker/(3735:3776): broker_AP
+[DEBUG] 23:39:39:243 Broker/(3735:3776): ----------------------> generar_lista_suscriptos 0
+[DEBUG] 23:39:39:243 Broker/(3735:3776): serializar ap o catch
+[DEBUG] 23:39:39:243 Broker/(3735:3776): Envio de un mensaje CATCH/APPEARED [len|pok|x|y|id] = [7|Pikachu|9|9|0]
+[INFO] 23:39:39:244 Broker/(3735:3777): Nueva conexion
+[INFO] 23:39:39:244 Broker/(3735:3777): Llegada de un nuevo mensaje a la cola de mensajes AP
+[DEBUG] 23:39:39:244 Broker/(3735:3777): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:39:39:244 Broker/(3735:3777): Se elimina el msg Pos: 32 Tamanio 32
+[DEBUG] 23:39:39:244 Broker/(3735:3777): Estado de la Cache luego de eliminar:
+[INFO] 23:39:39:245 Broker/(3735:3777): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 32
+[DEBUG] 23:39:39:245 Broker/(3735:3777): Llegada de un nuevo mensaje APPEARED_POKEMON=Largo|'pokemon'|posX|posY]=[8|'Squirtle'|5|2]
+[INFO] 23:39:39:245 Broker/(3735:3777): Almacenamiento de APPEARED_POKEMON en memoria, posicion : 32
+[DEBUG] 23:39:39:245 Broker/(3735:3777): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:39:39:246 Broker/(3735:3777): broker_AP
+[DEBUG] 23:39:39:247 Broker/(3735:3777): ----------------------> generar_lista_suscriptos 0
+[DEBUG] 23:39:39:247 Broker/(3735:3777): serializar ap o catch
+[DEBUG] 23:39:39:247 Broker/(3735:3777): Envio de un mensaje CATCH/APPEARED [len|pok|x|y|id] = [8|Squirtle|5|2|1]
+[INFO] 23:39:39:247 Broker/(3735:3778): Nueva conexion
+[INFO] 23:39:39:247 Broker/(3735:3778): Llegada de un nuevo mensaje a la cola de mensajes AP
+[DEBUG] 23:39:39:247 Broker/(3735:3778): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:39:39:247 Broker/(3735:3778): Se elimina el msg Pos: 0 Tamanio 32
+[DEBUG] 23:39:39:248 Broker/(3735:3778): Estado de la Cache luego de eliminar:
+[INFO] 23:39:39:248 Broker/(3735:3778): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 0
+[DEBUG] 23:39:39:248 Broker/(3735:3778): Llegada de un nuevo mensaje APPEARED_POKEMON=Largo|'pokemon'|posX|posY]=[7|'Jolteon'|2|2]
+[INFO] 23:39:39:248 Broker/(3735:3778): Almacenamiento de APPEARED_POKEMON en memoria, posicion : 0
+[DEBUG] 23:39:39:249 Broker/(3735:3778): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:39:39:249 Broker/(3735:3778): broker_AP
+[DEBUG] 23:39:39:249 Broker/(3735:3778): ----------------------> generar_lista_suscriptos 0
+[DEBUG] 23:39:39:249 Broker/(3735:3778): serializar ap o catch
+[DEBUG] 23:39:39:249 Broker/(3735:3778): Envio de un mensaje CATCH/APPEARED [len|pok|x|y|id] = [7|Jolteon|2|2|2]
+[INFO] 23:39:39:249 Broker/(3735:3779): Nueva conexion
+[INFO] 23:39:39:249 Broker/(3735:3779): Llegada de un nuevo mensaje a la cola de mensajes AP
+[DEBUG] 23:39:39:250 Broker/(3735:3779): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:39:39:250 Broker/(3735:3779): Se elimina el msg Pos: 32 Tamanio 32
+[DEBUG] 23:39:39:250 Broker/(3735:3779): Estado de la Cache luego de eliminar:
+[INFO] 23:39:39:250 Broker/(3735:3779): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 32
+[DEBUG] 23:39:39:250 Broker/(3735:3779): Llegada de un nuevo mensaje APPEARED_POKEMON=Largo|'pokemon'|posX|posY]=[7|'Flareon'|4|6]
+[INFO] 23:39:39:250 Broker/(3735:3779): Almacenamiento de APPEARED_POKEMON en memoria, posicion : 32
+[DEBUG] 23:39:39:250 Broker/(3735:3779): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:39:39:251 Broker/(3735:3779): broker_AP
+[DEBUG] 23:39:39:251 Broker/(3735:3779): ----------------------> generar_lista_suscriptos 0
+[DEBUG] 23:39:39:251 Broker/(3735:3779): serializar ap o catch
+[DEBUG] 23:39:39:251 Broker/(3735:3779): Envio de un mensaje CATCH/APPEARED [len|pok|x|y|id] = [7|Flareon|4|6|3]
+[INFO] 23:41:21:675 Broker/(3735:3810): Nueva conexion
+[INFO] 23:41:21:675 Broker/(3735:3812): Nueva conexion
+[INFO] 23:41:21:675 Broker/(3735:3814): Nueva conexion
+[INFO] 23:41:21:675 Broker/(3735:3816): Nueva conexion
+[INFO] 23:41:21:675 Broker/(3735:3810): Nueva suscripcion IP: '127.0.0.2' puerto: '5002' socket: '17' cola: 'APPEARED_POKEMON'
+[INFO] 23:41:21:675 Broker/(3735:3817): Nueva conexion
+[INFO] 23:41:21:675 Broker/(3735:3818): Nueva conexion
+[DEBUG] 23:41:21:675 Broker/(3735:3810): serializar ap o catch
+[INFO] 23:41:21:675 Broker/(3735:3819): Nueva conexion
+[DEBUG] 23:41:21:675 Broker/(3735:3810): Envio de un mensaje CATCH/APPEARED [len|pok|x|y|id] = [7|Jolteon|2|2|2]
+[DEBUG] 23:41:21:675 Broker/(3735:3810): serializar ap o catch
+[DEBUG] 23:41:21:675 Broker/(3735:3810): Envio de un mensaje CATCH/APPEARED [len|pok|x|y|id] = [7|Flareon|4|6|3]
+[INFO] 23:41:21:675 Broker/(3735:3814): Nueva suscripcion IP: '127.0.0.2' puerto: '5002' socket: '19' cola: 'LOCALIZED_POKEMON'
+[INFO] 23:41:21:676 Broker/(3735:3812): Nueva suscripcion IP: '127.0.0.2' puerto: '5002' socket: '18' cola: 'CAUGHT_POKEMON'
+[INFO] 23:41:21:676 Broker/(3735:3819): Llegada de un nuevo mensaje a la cola de mensajes GP
+[DEBUG] 23:41:21:676 Broker/(3735:3819): Se asigno el id = 4
+[DEBUG] 23:41:21:676 Broker/(3735:3819): Se envió el id correlativo del GET POKEMON: 4
+[DEBUG] 23:41:21:676 Broker/(3735:3819): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:41:21:676 Broker/(3735:3819): Se elimina el msg Pos: 0 Tamanio 32
+[DEBUG] 23:41:21:676 Broker/(3735:3819): Estado de la Cache luego de eliminar:
+[INFO] 23:41:21:676 Broker/(3735:3819): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 0
+[DEBUG] 23:41:21:676 Broker/(3735:3819): Llegada de un nuevo mensaje GET_POKEMON=[Largo|'pokemon']=[4|'Onix']
+[INFO] 23:41:21:677 Broker/(3735:3819): Almacenamiento de GET_POKEMON en memoria, posicion: 0
+[DEBUG] 23:41:21:677 Broker/(3735:3819): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:41:21:677 Broker/(3735:3819): broker_GP
+[DEBUG] 23:41:21:677 Broker/(3735:3819): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:41:21:677 Broker/(3735:3819): serializar get pokemon
+[DEBUG] 23:41:21:677 Broker/(3735:3819): Envio de un mensaje GET [len|pokemon|id] = [4|'Onix'|4]
+[INFO] 23:41:21:677 Broker/(3735:3816): Llegada de un nuevo mensaje a la cola de mensajes GP
+[DEBUG] 23:41:21:677 Broker/(3735:3816): Se asigno el id = 5
+[DEBUG] 23:41:21:678 Broker/(3735:3816): Se envió el id correlativo del GET POKEMON: 5
+[DEBUG] 23:41:21:678 Broker/(3735:3816): Llegada de un nuevo mensaje GET_POKEMON=[Largo|'pokemon']=[8|'Squirtle']
+[INFO] 23:41:21:678 Broker/(3735:3816): Almacenamiento de GET_POKEMON en memoria, posicion: 16
+[DEBUG] 23:41:21:678 Broker/(3735:3816): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:41:21:678 Broker/(3735:3816): broker_GP
+[DEBUG] 23:41:21:678 Broker/(3735:3816): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:41:21:678 Broker/(3735:3816): serializar get pokemon
+[DEBUG] 23:41:21:678 Broker/(3735:3816): Envio de un mensaje GET [len|pokemon|id] = [8|'Squirtle'|5]
+[INFO] 23:41:21:678 Broker/(3735:3817): Llegada de un nuevo mensaje a la cola de mensajes GP
+[DEBUG] 23:41:21:679 Broker/(3735:3817): Se asigno el id = 6
+[DEBUG] 23:41:21:679 Broker/(3735:3817): Se envió el id correlativo del GET POKEMON: 6
+[DEBUG] 23:41:21:679 Broker/(3735:3817): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:41:21:679 Broker/(3735:3817): Se elimina el msg Pos: 32 Tamanio 32
+[DEBUG] 23:41:21:679 Broker/(3735:3817): Estado de la Cache luego de eliminar:
+[INFO] 23:41:21:679 Broker/(3735:3817): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 32
+[DEBUG] 23:41:21:679 Broker/(3735:3817): Llegada de un nuevo mensaje GET_POKEMON=[Largo|'pokemon']=[7|'Pikachu']
+[INFO] 23:41:21:679 Broker/(3735:3817): Almacenamiento de GET_POKEMON en memoria, posicion: 32
+[DEBUG] 23:41:21:679 Broker/(3735:3817): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:41:21:680 Broker/(3735:3817): broker_GP
+[DEBUG] 23:41:21:680 Broker/(3735:3817): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:41:21:680 Broker/(3735:3817): serializar get pokemon
+[DEBUG] 23:41:21:680 Broker/(3735:3817): Envio de un mensaje GET [len|pokemon|id] = [7|'Pikachu'|6]
+[INFO] 23:41:21:680 Broker/(3735:3818): Llegada de un nuevo mensaje a la cola de mensajes GP
+[DEBUG] 23:41:21:680 Broker/(3735:3818): Se asigno el id = 7
+[DEBUG] 23:41:21:680 Broker/(3735:3818): Se envió el id correlativo del GET POKEMON: 7
+[DEBUG] 23:41:21:680 Broker/(3735:3818): Llegada de un nuevo mensaje GET_POKEMON=[Largo|'pokemon']=[6|'Gengar']
+[INFO] 23:41:21:680 Broker/(3735:3818): Almacenamiento de GET_POKEMON en memoria, posicion: 48
+[DEBUG] 23:41:21:680 Broker/(3735:3818): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:41:21:680 Broker/(3735:3818): broker_GP
+[DEBUG] 23:41:21:680 Broker/(3735:3818): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:41:21:680 Broker/(3735:3818): serializar get pokemon
+[DEBUG] 23:41:21:680 Broker/(3735:3818): Envio de un mensaje GET [len|pokemon|id] = [6|'Gengar'|7]
+[INFO] 23:41:21:683 Broker/(3735:3821): Envío de un mensaje a un suscriptor socket: 17 (tamaño: 24)
+[INFO] 23:41:21:686 Broker/(3735:3824): Envío de un mensaje a un suscriptor socket: 7 (tamaño: 16)
+[INFO] 23:41:21:686 Broker/(3735:3825): Envío de un mensaje a un suscriptor socket: 7 (tamaño: 15)
+[DEBUG] 23:41:21:686 Broker/(3735:3821): Se recibio confirmacion de recepcion del proceso: 17
+[DEBUG] 23:41:21:687 Broker/(3735:3824): Se recibio confirmacion de recepcion del proceso: 7
+[DEBUG] 23:41:21:687 Broker/(3735:3825): Se recibio confirmacion de recepcion del proceso: 7
+[INFO] 23:41:21:687 Broker/(3735:3820): Envío de un mensaje a un suscriptor socket: 17 (tamaño: 24)
+[INFO] 23:41:21:687 Broker/(3735:3823): Envío de un mensaje a un suscriptor socket: 7 (tamaño: 17)
+[DEBUG] 23:41:21:687 Broker/(3735:3820): Se recibio confirmacion de recepcion del proceso: 17
+[DEBUG] 23:41:21:687 Broker/(3735:3823): Se recibio confirmacion de recepcion del proceso: 7
+[INFO] 23:41:21:687 Broker/(3735:3822): Envío de un mensaje a un suscriptor socket: 7 (tamaño: 13)
+[DEBUG] 23:41:21:687 Broker/(3735:3822): Se recibio confirmacion de recepcion del proceso: 7
+[INFO] 23:41:21:688 Broker/(3735:3834): Nueva conexion
+[INFO] 23:41:21:688 Broker/(3735:3834): Llegada de un nuevo mensaje a la cola de mensajes LP
+[DEBUG] 23:41:21:688 Broker/(3735:3834): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:41:21:688 Broker/(3735:3834): Se elimina el msg Pos: 0 Tamanio 8
+[DEBUG] 23:41:21:688 Broker/(3735:3834): Particion Companiero Posicion 8 Tamanio 8
+[DEBUG] 23:41:21:688 Broker/(3735:3834): Nueva Part. libre Posicion 0 Tamanio 16
+[DEBUG] 23:41:21:688 Broker/(3735:3834): Estado de la Cache luego de eliminar:
+[INFO] 23:41:21:688 Broker/(3735:3834): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 0
+[DEBUG] 23:41:21:688 Broker/(3735:3834): Llegada de un nuevo mensaje LOCALIZED_POKEMON=[id|Largo|'pokemon'|cant de coord]=[7|6|'Gengar'|0]
+[INFO] 23:41:21:688 Broker/(3735:3834): Almacenamiento de LOCALIZED en memoria, posicion: 0
+[DEBUG] 23:41:21:689 Broker/(3735:3834): broker_LP
+[DEBUG] 23:41:21:689 Broker/(3735:3834): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:41:21:689 Broker/(3735:3834): serializar localized
+[DEBUG] 23:41:21:689 Broker/(3735:3834): Envio de un mensaje LOCALIZED [id|Largo|'pokemon'|cant de coord] = [7|6|'Gengar'|0]
+[INFO] 23:41:21:689 Broker/(3735:3835): Nueva conexion
+[INFO] 23:41:21:689 Broker/(3735:3835): Llegada de un nuevo mensaje a la cola de mensajes LP
+[DEBUG] 23:41:21:689 Broker/(3735:3835): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:41:21:689 Broker/(3735:3835): Se elimina el msg Pos: 16 Tamanio 16
+[DEBUG] 23:41:21:689 Broker/(3735:3835): Estado de la Cache luego de eliminar:
+[INFO] 23:41:21:689 Broker/(3735:3835): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 16
+[DEBUG] 23:41:21:689 Broker/(3735:3835): Llegada de un nuevo mensaje LOCALIZED_POKEMON=[id|Largo|'pokemon'|cant de coord]=[4|4|'Onix'|0]
+[INFO] 23:41:21:689 Broker/(3735:3835): Almacenamiento de LOCALIZED en memoria, posicion: 16
+[DEBUG] 23:41:21:689 Broker/(3735:3835): broker_LP
+[DEBUG] 23:41:21:690 Broker/(3735:3835): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:41:21:690 Broker/(3735:3835): serializar localized
+[DEBUG] 23:41:21:690 Broker/(3735:3835): Envio de un mensaje LOCALIZED [id|Largo|'pokemon'|cant de coord] = [4|4|'Onix'|0]
+[INFO] 23:41:21:690 Broker/(3735:3836): Envío de un mensaje a un suscriptor socket: 19 (tamaño: 19)
+[DEBUG] 23:41:21:690 Broker/(3735:3836): Se recibio confirmacion de recepcion del proceso: 19
+[INFO] 23:41:21:690 Broker/(3735:3837): Envío de un mensaje a un suscriptor socket: 19 (tamaño: 17)
+[DEBUG] 23:41:21:690 Broker/(3735:3837): Se recibio confirmacion de recepcion del proceso: 19
+[INFO] 23:41:22:114 Broker/(3735:3859): Nueva conexion
+[INFO] 23:41:22:114 Broker/(3735:3861): Nueva conexion
+[INFO] 23:41:22:114 Broker/(3735:3863): Nueva conexion
+[INFO] 23:41:22:115 Broker/(3735:3865): Nueva conexion
+[INFO] 23:41:22:115 Broker/(3735:3859): Nueva suscripcion IP: '127.0.0.4' puerto: '5010' socket: '26' cola: 'APPEARED_POKEMON'
+[INFO] 23:41:22:115 Broker/(3735:3866): Nueva conexion
+[INFO] 23:41:22:115 Broker/(3735:3867): Nueva conexion
+[INFO] 23:41:22:115 Broker/(3735:3868): Nueva conexion
+[INFO] 23:41:22:115 Broker/(3735:3865): Llegada de un nuevo mensaje a la cola de mensajes GP
+[INFO] 23:41:22:115 Broker/(3735:3869): Nueva conexion
+[DEBUG] 23:41:22:115 Broker/(3735:3865): Se asigno el id = 8
+[DEBUG] 23:41:22:115 Broker/(3735:3865): Se envió el id correlativo del GET POKEMON: 8
+[DEBUG] 23:41:22:115 Broker/(3735:3865): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:41:22:115 Broker/(3735:3865): Se elimina el msg Pos: 32 Tamanio 16
+[DEBUG] 23:41:22:115 Broker/(3735:3865): Estado de la Cache luego de eliminar:
+[INFO] 23:41:22:115 Broker/(3735:3865): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 32
+[DEBUG] 23:41:22:116 Broker/(3735:3865): Llegada de un nuevo mensaje GET_POKEMON=[Largo|'pokemon']=[8|'Vaporeon']
+[INFO] 23:41:22:116 Broker/(3735:3865): Almacenamiento de GET_POKEMON en memoria, posicion: 32
+[DEBUG] 23:41:22:116 Broker/(3735:3865): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:41:22:116 Broker/(3735:3865): broker_GP
+[DEBUG] 23:41:22:116 Broker/(3735:3865): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:41:22:116 Broker/(3735:3865): serializar get pokemon
+[DEBUG] 23:41:22:116 Broker/(3735:3865): Envio de un mensaje GET [len|pokemon|id] = [8|'Vaporeon'|8]
+[INFO] 23:41:22:116 Broker/(3735:3863): Nueva suscripcion IP: '127.0.0.4' puerto: '5010' socket: '28' cola: 'LOCALIZED_POKEMON'
+[DEBUG] 23:41:22:116 Broker/(3735:3863): serializar get pokemon
+[DEBUG] 23:41:22:117 Broker/(3735:3863): Envio de un mensaje GET [len|pokemon|id] = [6|'Gengar'|7]
+[DEBUG] 23:41:22:117 Broker/(3735:3863): serializar get pokemon
+[DEBUG] 23:41:22:117 Broker/(3735:3863): Envio de un mensaje GET [len|pokemon|id] = [8|'Vaporeon'|8]
+[INFO] 23:41:22:117 Broker/(3735:3861): Nueva suscripcion IP: '127.0.0.4' puerto: '5010' socket: '27' cola: 'CAUGHT_POKEMON'
+[INFO] 23:41:22:117 Broker/(3735:3868): Llegada de un nuevo mensaje a la cola de mensajes GP
+[DEBUG] 23:41:22:117 Broker/(3735:3868): Se asigno el id = 9
+[DEBUG] 23:41:22:117 Broker/(3735:3868): Se envió el id correlativo del GET POKEMON: 9
+[DEBUG] 23:41:22:117 Broker/(3735:3868): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:41:22:117 Broker/(3735:3868): Se elimina el msg Pos: 48 Tamanio 16
+[DEBUG] 23:41:22:118 Broker/(3735:3868): Estado de la Cache luego de eliminar:
+[INFO] 23:41:22:118 Broker/(3735:3868): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 48
+[DEBUG] 23:41:22:118 Broker/(3735:3868): Llegada de un nuevo mensaje GET_POKEMON=[Largo|'pokemon']=[7|'Umbreon']
+[INFO] 23:41:22:118 Broker/(3735:3868): Almacenamiento de GET_POKEMON en memoria, posicion: 48
+[DEBUG] 23:41:22:118 Broker/(3735:3868): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:41:22:118 Broker/(3735:3868): broker_GP
+[DEBUG] 23:41:22:118 Broker/(3735:3868): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:41:22:118 Broker/(3735:3868): serializar get pokemon
+[DEBUG] 23:41:22:118 Broker/(3735:3868): Envio de un mensaje GET [len|pokemon|id] = [7|'Umbreon'|9]
+[INFO] 23:41:22:119 Broker/(3735:3867): Llegada de un nuevo mensaje a la cola de mensajes GP
+[DEBUG] 23:41:22:119 Broker/(3735:3867): Se asigno el id = 10
+[DEBUG] 23:41:22:119 Broker/(3735:3867): Se envió el id correlativo del GET POKEMON: 10
+[DEBUG] 23:41:22:119 Broker/(3735:3867): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:41:22:119 Broker/(3735:3867): Se elimina el msg Pos: 0 Tamanio 16
+[DEBUG] 23:41:22:119 Broker/(3735:3867): Estado de la Cache luego de eliminar:
+[INFO] 23:41:22:119 Broker/(3735:3867): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 0
+[DEBUG] 23:41:22:119 Broker/(3735:3867): Llegada de un nuevo mensaje GET_POKEMON=[Largo|'pokemon']=[7|'Flareon']
+[INFO] 23:41:22:119 Broker/(3735:3867): Almacenamiento de GET_POKEMON en memoria, posicion: 0
+[DEBUG] 23:41:22:120 Broker/(3735:3867): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:41:22:120 Broker/(3735:3867): broker_GP
+[DEBUG] 23:41:22:120 Broker/(3735:3867): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:41:22:120 Broker/(3735:3867): serializar get pokemon
+[DEBUG] 23:41:22:120 Broker/(3735:3867): Envio de un mensaje GET [len|pokemon|id] = [7|'Flareon'|10]
+[INFO] 23:41:22:120 Broker/(3735:3869): Llegada de un nuevo mensaje a la cola de mensajes GP
+[DEBUG] 23:41:22:120 Broker/(3735:3869): Se asigno el id = 11
+[DEBUG] 23:41:22:120 Broker/(3735:3869): Se envió el id correlativo del GET POKEMON: 11
+[DEBUG] 23:41:22:120 Broker/(3735:3869): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:41:22:120 Broker/(3735:3869): Se elimina el msg Pos: 16 Tamanio 16
+[DEBUG] 23:41:22:120 Broker/(3735:3869): Estado de la Cache luego de eliminar:
+[INFO] 23:41:22:120 Broker/(3735:3869): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 16
+[DEBUG] 23:41:22:120 Broker/(3735:3869): Llegada de un nuevo mensaje GET_POKEMON=[Largo|'pokemon']=[6|'Espeon']
+[INFO] 23:41:22:120 Broker/(3735:3869): Almacenamiento de GET_POKEMON en memoria, posicion: 16
+[DEBUG] 23:41:22:120 Broker/(3735:3869): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:41:22:120 Broker/(3735:3869): broker_GP
+[DEBUG] 23:41:22:120 Broker/(3735:3869): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:41:22:120 Broker/(3735:3869): serializar get pokemon
+[DEBUG] 23:41:22:120 Broker/(3735:3869): Envio de un mensaje GET [len|pokemon|id] = [6|'Espeon'|11]
+[INFO] 23:41:22:120 Broker/(3735:3866): Llegada de un nuevo mensaje a la cola de mensajes GP
+[DEBUG] 23:41:22:121 Broker/(3735:3866): Se asigno el id = 12
+[DEBUG] 23:41:22:121 Broker/(3735:3866): Se envió el id correlativo del GET POKEMON: 12
+[DEBUG] 23:41:22:121 Broker/(3735:3866): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:41:22:121 Broker/(3735:3866): Se elimina el msg Pos: 32 Tamanio 16
+[DEBUG] 23:41:22:121 Broker/(3735:3866): Estado de la Cache luego de eliminar:
+[INFO] 23:41:22:121 Broker/(3735:3866): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 32
+[DEBUG] 23:41:22:121 Broker/(3735:3866): Llegada de un nuevo mensaje GET_POKEMON=[Largo|'pokemon']=[7|'Jolteon']
+[INFO] 23:41:22:121 Broker/(3735:3866): Almacenamiento de GET_POKEMON en memoria, posicion: 32
+[DEBUG] 23:41:22:121 Broker/(3735:3866): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:41:22:121 Broker/(3735:3866): broker_GP
+[DEBUG] 23:41:22:121 Broker/(3735:3866): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:41:22:121 Broker/(3735:3866): serializar get pokemon
+[DEBUG] 23:41:22:121 Broker/(3735:3866): Envio de un mensaje GET [len|pokemon|id] = [7|'Jolteon'|12]
+[INFO] 23:41:22:121 Broker/(3735:3873): Envío de un mensaje a un suscriptor socket: 7 (tamaño: 16)
+[DEBUG] 23:41:22:121 Broker/(3735:3873): Se recibio confirmacion de recepcion del proceso: 7
+[INFO] 23:41:22:121 Broker/(3735:3874): Envío de un mensaje a un suscriptor socket: 7 (tamaño: 16)
+[INFO] 23:41:22:121 Broker/(3735:3875): Envío de un mensaje a un suscriptor socket: 7 (tamaño: 15)
+[INFO] 23:41:22:121 Broker/(3735:3876): Envío de un mensaje a un suscriptor socket: 7 (tamaño: 16)
+[INFO] 23:41:22:121 Broker/(3735:3872): Envío de un mensaje a un suscriptor socket: 28 (tamaño: 17)
+[DEBUG] 23:41:22:121 Broker/(3735:3874): Se recibio confirmacion de recepcion del proceso: 7
+[DEBUG] 23:41:22:122 Broker/(3735:3875): Se recibio confirmacion de recepcion del proceso: 7
+[DEBUG] 23:41:22:122 Broker/(3735:3876): Se recibio confirmacion de recepcion del proceso: 7
+[DEBUG] 23:41:22:122 Broker/(3735:3872): Se recibio confirmacion de recepcion del proceso: 28
+[INFO] 23:41:22:122 Broker/(3735:3871): Envío de un mensaje a un suscriptor socket: 28 (tamaño: 15)
+[DEBUG] 23:41:22:122 Broker/(3735:3871): Se recibio confirmacion de recepcion del proceso: 28
+[INFO] 23:41:22:122 Broker/(3735:3870): Envío de un mensaje a un suscriptor socket: 7 (tamaño: 17)
+[DEBUG] 23:41:22:122 Broker/(3735:3870): Se recibio confirmacion de recepcion del proceso: 7
+[INFO] 23:41:22:123 Broker/(3735:3884): Nueva conexion
+[INFO] 23:41:22:127 Broker/(3735:3885): Nueva conexion
+[INFO] 23:41:22:127 Broker/(3735:3884): Llegada de un nuevo mensaje a la cola de mensajes LP
+[DEBUG] 23:41:22:127 Broker/(3735:3884): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:41:22:127 Broker/(3735:3884): Se elimina el msg Pos: 48 Tamanio 16
+[DEBUG] 23:41:22:127 Broker/(3735:3884): Estado de la Cache luego de eliminar:
+[INFO] 23:41:22:127 Broker/(3735:3884): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 48
+[DEBUG] 23:41:22:127 Broker/(3735:3884): Llegada de un nuevo mensaje LOCALIZED_POKEMON=[id|Largo|'pokemon'|cant de coord]=[9|7|'Umbreon'|0]
+[INFO] 23:41:22:127 Broker/(3735:3884): Almacenamiento de LOCALIZED en memoria, posicion: 48
+[DEBUG] 23:41:22:127 Broker/(3735:3884): broker_LP
+[DEBUG] 23:41:22:127 Broker/(3735:3884): ----------------------> generar_lista_suscriptos 2
+[DEBUG] 23:41:22:127 Broker/(3735:3884): serializar localized
+[DEBUG] 23:41:22:127 Broker/(3735:3884): Envio de un mensaje LOCALIZED [id|Largo|'pokemon'|cant de coord] = [9|7|'Umbreon'|0]
+[INFO] 23:41:22:127 Broker/(3735:3885): Llegada de un nuevo mensaje a la cola de mensajes LP
+[DEBUG] 23:41:22:127 Broker/(3735:3885): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:41:22:127 Broker/(3735:3885): Se elimina el msg Pos: 0 Tamanio 16
+[DEBUG] 23:41:22:127 Broker/(3735:3885): Estado de la Cache luego de eliminar:
+[INFO] 23:41:22:127 Broker/(3735:3885): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 0
+[DEBUG] 23:41:22:127 Broker/(3735:3885): Llegada de un nuevo mensaje LOCALIZED_POKEMON=[id|Largo|'pokemon'|cant de coord]=[11|6|'Espeon'|0]
+[INFO] 23:41:22:127 Broker/(3735:3885): Almacenamiento de LOCALIZED en memoria, posicion: 0
+[DEBUG] 23:41:22:127 Broker/(3735:3885): broker_LP
+[DEBUG] 23:41:22:127 Broker/(3735:3885): ----------------------> generar_lista_suscriptos 2
+[DEBUG] 23:41:22:127 Broker/(3735:3885): serializar localized
+[DEBUG] 23:41:22:127 Broker/(3735:3885): Envio de un mensaje LOCALIZED [id|Largo|'pokemon'|cant de coord] = [11|6|'Espeon'|0]
+[INFO] 23:41:22:127 Broker/(3735:3886): Nueva conexion
+[INFO] 23:41:22:127 Broker/(3735:3886): Llegada de un nuevo mensaje a la cola de mensajes LP
+[DEBUG] 23:41:22:127 Broker/(3735:3886): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:41:22:127 Broker/(3735:3886): Se elimina el msg Pos: 16 Tamanio 16
+[DEBUG] 23:41:22:127 Broker/(3735:3886): Estado de la Cache luego de eliminar:
+[INFO] 23:41:22:127 Broker/(3735:3886): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 16
+[DEBUG] 23:41:22:127 Broker/(3735:3886): Llegada de un nuevo mensaje LOCALIZED_POKEMON=[id|Largo|'pokemon'|cant de coord]=[8|8|'Vaporeon'|0]
+[INFO] 23:41:22:127 Broker/(3735:3886): Almacenamiento de LOCALIZED en memoria, posicion: 16
+[DEBUG] 23:41:22:127 Broker/(3735:3886): broker_LP
+[DEBUG] 23:41:22:127 Broker/(3735:3886): ----------------------> generar_lista_suscriptos 2
+[DEBUG] 23:41:22:127 Broker/(3735:3886): serializar localized
+[DEBUG] 23:41:22:127 Broker/(3735:3886): Envio de un mensaje LOCALIZED [id|Largo|'pokemon'|cant de coord] = [8|8|'Vaporeon'|0]
+[INFO] 23:41:22:128 Broker/(3735:3890): Envío de un mensaje a un suscriptor socket: 28 (tamaño: 19)
+[DEBUG] 23:41:22:128 Broker/(3735:3890): Se recibio confirmacion de recepcion del proceso: 28
+[INFO] 23:41:22:128 Broker/(3735:3888): Envío de un mensaje a un suscriptor socket: 28 (tamaño: 20)
+[INFO] 23:41:22:128 Broker/(3735:3889): Envío de un mensaje a un suscriptor socket: 19 (tamaño: 19)
+[DEBUG] 23:41:22:128 Broker/(3735:3888): Se recibio confirmacion de recepcion del proceso: 28
+[DEBUG] 23:41:22:128 Broker/(3735:3889): Se recibio confirmacion de recepcion del proceso: 19
+[INFO] 23:41:22:128 Broker/(3735:3887): Envío de un mensaje a un suscriptor socket: 19 (tamaño: 20)
+[DEBUG] 23:41:22:128 Broker/(3735:3887): Se recibio confirmacion de recepcion del proceso: 19
+[INFO] 23:41:22:128 Broker/(3735:3892): Envío de un mensaje a un suscriptor socket: 28 (tamaño: 21)
+[DEBUG] 23:41:22:128 Broker/(3735:3892): Se recibio confirmacion de recepcion del proceso: 28
+[INFO] 23:41:22:128 Broker/(3735:3891): Envío de un mensaje a un suscriptor socket: 19 (tamaño: 21)
+[DEBUG] 23:41:22:128 Broker/(3735:3891): Se recibio confirmacion de recepcion del proceso: 19
+[INFO] 23:41:26:689 Broker/(3735:3900): Nueva conexion
+[INFO] 23:41:26:689 Broker/(3735:3901): Nueva conexion
+[INFO] 23:41:26:689 Broker/(3735:3900): Llegada de un nuevo mensaje a la cola de mensajes LP
+[DEBUG] 23:41:26:689 Broker/(3735:3900): -------- Se elimina el sig mensaje ----------------------------
+[INFO] 23:41:26:690 Broker/(3735:3901): Llegada de un nuevo mensaje a la cola de mensajes LP
+[DEBUG] 23:41:26:690 Broker/(3735:3900): Se elimina el msg Pos: 32 Tamanio 16
+[DEBUG] 23:41:26:690 Broker/(3735:3900): Estado de la Cache luego de eliminar:
+[INFO] 23:41:26:691 Broker/(3735:3900): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 32
+[DEBUG] 23:41:26:691 Broker/(3735:3900): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:41:26:691 Broker/(3735:3900): Se elimina el msg Pos: 48 Tamanio 16
+[DEBUG] 23:41:26:691 Broker/(3735:3900): Particion Companiero Posicion 32 Tamanio 16
+[DEBUG] 23:41:26:691 Broker/(3735:3900): Nueva Part. libre Posicion 32 Tamanio 32
+[DEBUG] 23:41:26:691 Broker/(3735:3900): Estado de la Cache luego de eliminar:
+[INFO] 23:41:26:692 Broker/(3735:3900): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 48
+[DEBUG] 23:41:26:692 Broker/(3735:3900): Llegada de un nuevo mensaje LOCALIZED_POKEMON=[id|Largo|'pokemon'|cant de coord]=[6|7|'Pikachu'|1]
+[DEBUG] 23:41:26:692 Broker/(3735:3900): [posX|posY]=[9|9]
+[INFO] 23:41:26:692 Broker/(3735:3900): Almacenamiento de LOCALIZED en memoria, posicion: 32
+[DEBUG] 23:41:26:692 Broker/(3735:3900): broker_LP
+[DEBUG] 23:41:26:693 Broker/(3735:3900): ----------------------> generar_lista_suscriptos 2
+[DEBUG] 23:41:26:693 Broker/(3735:3900): serializar localized
+[DEBUG] 23:41:26:693 Broker/(3735:3900): Envio de un mensaje LOCALIZED [id|Largo|'pokemon'|cant de coord] = [6|7|'Pikachu'|1]
+[DEBUG] 23:41:26:693 Broker/(3735:3900): [posX|posY]=[9|9]
+[DEBUG] 23:41:26:693 Broker/(3735:3901): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:41:26:693 Broker/(3735:3901): Se elimina el msg Pos: 0 Tamanio 16
+[DEBUG] 23:41:26:693 Broker/(3735:3901): Estado de la Cache luego de eliminar:
+[INFO] 23:41:26:694 Broker/(3735:3901): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 0
+[DEBUG] 23:41:26:694 Broker/(3735:3901): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:41:26:694 Broker/(3735:3901): Se elimina el msg Pos: 16 Tamanio 16
+[DEBUG] 23:41:26:694 Broker/(3735:3901): Particion Companiero Posicion 0 Tamanio 16
+[DEBUG] 23:41:26:694 Broker/(3735:3901): Nueva Part. libre Posicion 0 Tamanio 32
+[DEBUG] 23:41:26:694 Broker/(3735:3901): Estado de la Cache luego de eliminar:
+[INFO] 23:41:26:694 Broker/(3735:3901): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 16
+[DEBUG] 23:41:26:694 Broker/(3735:3901): Llegada de un nuevo mensaje LOCALIZED_POKEMON=[id|Largo|'pokemon'|cant de coord]=[5|8|'Squirtle'|1]
+[DEBUG] 23:41:26:694 Broker/(3735:3901): [posX|posY]=[5|2]
+[INFO] 23:41:26:694 Broker/(3735:3901): Almacenamiento de LOCALIZED en memoria, posicion: 0
+[DEBUG] 23:41:26:694 Broker/(3735:3901): broker_LP
+[DEBUG] 23:41:26:694 Broker/(3735:3901): ----------------------> generar_lista_suscriptos 2
+[DEBUG] 23:41:26:694 Broker/(3735:3901): serializar localized
+[DEBUG] 23:41:26:695 Broker/(3735:3901): Envio de un mensaje LOCALIZED [id|Largo|'pokemon'|cant de coord] = [5|8|'Squirtle'|1]
+[DEBUG] 23:41:26:695 Broker/(3735:3901): [posX|posY]=[5|2]
+[INFO] 23:41:26:695 Broker/(3735:3905): Envío de un mensaje a un suscriptor socket: 28 (tamaño: 29)
+[DEBUG] 23:41:26:695 Broker/(3735:3905): Se recibio confirmacion de recepcion del proceso: 28
+[INFO] 23:41:26:695 Broker/(3735:3904): Envío de un mensaje a un suscriptor socket: 19 (tamaño: 29)
+[DEBUG] 23:41:26:695 Broker/(3735:3904): Se recibio confirmacion de recepcion del proceso: 19
+[INFO] 23:41:26:695 Broker/(3735:3903): Envío de un mensaje a un suscriptor socket: 28 (tamaño: 28)
+[DEBUG] 23:41:26:696 Broker/(3735:3903): Se recibio confirmacion de recepcion del proceso: 28
+[INFO] 23:41:26:696 Broker/(3735:3902): Envío de un mensaje a un suscriptor socket: 19 (tamaño: 28)
+[DEBUG] 23:41:26:696 Broker/(3735:3902): Se recibio confirmacion de recepcion del proceso: 19
+[INFO] 23:41:27:124 Broker/(3735:3910): Nueva conexion
+[INFO] 23:41:27:124 Broker/(3735:3911): Nueva conexion
+[INFO] 23:41:27:125 Broker/(3735:3910): Llegada de un nuevo mensaje a la cola de mensajes LP
+[DEBUG] 23:41:27:125 Broker/(3735:3910): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:41:27:125 Broker/(3735:3910): Se elimina el msg Pos: 32 Tamanio 32
+[DEBUG] 23:41:27:125 Broker/(3735:3910): Estado de la Cache luego de eliminar:
+[INFO] 23:41:27:125 Broker/(3735:3910): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 32
+[DEBUG] 23:41:27:125 Broker/(3735:3910): Llegada de un nuevo mensaje LOCALIZED_POKEMON=[id|Largo|'pokemon'|cant de coord]=[10|7|'Flareon'|1]
+[DEBUG] 23:41:27:126 Broker/(3735:3910): [posX|posY]=[4|6]
+[INFO] 23:41:27:126 Broker/(3735:3910): Almacenamiento de LOCALIZED en memoria, posicion: 32
+[DEBUG] 23:41:27:126 Broker/(3735:3910): broker_LP
+[DEBUG] 23:41:27:126 Broker/(3735:3910): ----------------------> generar_lista_suscriptos 2
+[DEBUG] 23:41:27:126 Broker/(3735:3910): serializar localized
+[DEBUG] 23:41:27:126 Broker/(3735:3910): Envio de un mensaje LOCALIZED [id|Largo|'pokemon'|cant de coord] = [10|7|'Flareon'|1]
+[DEBUG] 23:41:27:127 Broker/(3735:3910): [posX|posY]=[4|6]
+[INFO] 23:41:27:127 Broker/(3735:3911): Llegada de un nuevo mensaje a la cola de mensajes LP
+[DEBUG] 23:41:27:127 Broker/(3735:3911): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:41:27:127 Broker/(3735:3911): Se elimina el msg Pos: 0 Tamanio 32
+[DEBUG] 23:41:27:127 Broker/(3735:3911): Estado de la Cache luego de eliminar:
+[INFO] 23:41:27:128 Broker/(3735:3911): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 0
+[DEBUG] 23:41:27:128 Broker/(3735:3911): Llegada de un nuevo mensaje LOCALIZED_POKEMON=[id|Largo|'pokemon'|cant de coord]=[12|7|'Jolteon'|1]
+[DEBUG] 23:41:27:128 Broker/(3735:3911): [posX|posY]=[2|2]
+[INFO] 23:41:27:128 Broker/(3735:3911): Almacenamiento de LOCALIZED en memoria, posicion: 0
+[DEBUG] 23:41:27:129 Broker/(3735:3911): broker_LP
+[DEBUG] 23:41:27:129 Broker/(3735:3911): ----------------------> generar_lista_suscriptos 2
+[DEBUG] 23:41:27:129 Broker/(3735:3911): serializar localized
+[DEBUG] 23:41:27:129 Broker/(3735:3911): Envio de un mensaje LOCALIZED [id|Largo|'pokemon'|cant de coord] = [12|7|'Jolteon'|1]
+[DEBUG] 23:41:27:129 Broker/(3735:3911): [posX|posY]=[2|2]
+[INFO] 23:41:27:129 Broker/(3735:3915): Envío de un mensaje a un suscriptor socket: 28 (tamaño: 28)
+[DEBUG] 23:41:27:130 Broker/(3735:3915): Se recibio confirmacion de recepcion del proceso: 28
+[INFO] 23:41:27:130 Broker/(3735:3913): Envío de un mensaje a un suscriptor socket: 28 (tamaño: 28)
+[DEBUG] 23:41:27:130 Broker/(3735:3913): Se recibio confirmacion de recepcion del proceso: 28
+[INFO] 23:41:27:130 Broker/(3735:3914): Envío de un mensaje a un suscriptor socket: 19 (tamaño: 28)
+[DEBUG] 23:41:27:130 Broker/(3735:3914): Se recibio confirmacion de recepcion del proceso: 19
+[INFO] 23:41:27:130 Broker/(3735:3912): Envío de un mensaje a un suscriptor socket: 19 (tamaño: 28)
+[DEBUG] 23:41:27:130 Broker/(3735:3912): Se recibio confirmacion de recepcion del proceso: 19
+[INFO] 23:41:37:132 Broker/(3735:3921): Nueva conexion
+[INFO] 23:41:37:132 Broker/(3735:3921): Llegada de un nuevo mensaje a la cola de mensajes CATP
+[DEBUG] 23:41:37:132 Broker/(3735:3921): Se asigno el id = 13
+[DEBUG] 23:41:37:132 Broker/(3735:3921): Se envió el id correlativo del CATCH: 13
+[DEBUG] 23:41:37:132 Broker/(3735:3921): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:41:37:133 Broker/(3735:3921): Se elimina el msg Pos: 32 Tamanio 32
+[DEBUG] 23:41:37:133 Broker/(3735:3921): Estado de la Cache luego de eliminar:
+[INFO] 23:41:37:133 Broker/(3735:3921): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 32
+[DEBUG] 23:41:37:133 Broker/(3735:3921): Llegada de un nuevo mensaje CATCH_POKEMON=Largo|'pokemon'|posX|posY]=[8|'Jolteon'|2|2]
+[INFO] 23:41:37:133 Broker/(3735:3921): Almacenamiento de CATCH_POKEMON en memoria, posicion : 32
+[DEBUG] 23:41:37:134 Broker/(3735:3921): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:41:37:134 Broker/(3735:3921): broker_CATP
+[DEBUG] 23:41:37:134 Broker/(3735:3921): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:41:37:134 Broker/(3735:3921): serializar ap o catch
+[DEBUG] 23:41:37:134 Broker/(3735:3921): Envio de un mensaje CATCH/APPEARED [len|pok|x|y|id] = [7|Jolteon|2|2|13]
+[INFO] 23:41:37:135 Broker/(3735:3922): Envío de un mensaje a un suscriptor socket: 5 (tamaño: 24)
+[DEBUG] 23:41:37:135 Broker/(3735:3922): Se recibio confirmacion de recepcion del proceso: 5
+[INFO] 23:41:41:698 Broker/(3735:3924): Nueva conexion
+[INFO] 23:41:41:698 Broker/(3735:3924): Llegada de un nuevo mensaje a la cola de mensajes CATP
+[DEBUG] 23:41:41:698 Broker/(3735:3924): Se asigno el id = 14
+[DEBUG] 23:41:41:703 Broker/(3735:3924): Se envió el id correlativo del CATCH: 14
+[DEBUG] 23:41:41:703 Broker/(3735:3924): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:41:41:703 Broker/(3735:3924): Se elimina el msg Pos: 0 Tamanio 32
+[DEBUG] 23:41:41:704 Broker/(3735:3924): Estado de la Cache luego de eliminar:
+[INFO] 23:41:41:704 Broker/(3735:3924): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 0
+[DEBUG] 23:41:41:704 Broker/(3735:3924): Llegada de un nuevo mensaje CATCH_POKEMON=Largo|'pokemon'|posX|posY]=[9|'Squirtle'|5|2]
+[INFO] 23:41:41:704 Broker/(3735:3924): Almacenamiento de CATCH_POKEMON en memoria, posicion : 0
+[DEBUG] 23:41:41:705 Broker/(3735:3924): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:41:41:705 Broker/(3735:3924): broker_CATP
+[DEBUG] 23:41:41:705 Broker/(3735:3924): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:41:41:705 Broker/(3735:3924): serializar ap o catch
+[DEBUG] 23:41:41:705 Broker/(3735:3924): Envio de un mensaje CATCH/APPEARED [len|pok|x|y|id] = [8|Squirtle|5|2|14]
+[INFO] 23:41:41:706 Broker/(3735:3927): Envío de un mensaje a un suscriptor socket: 5 (tamaño: 25)
+[DEBUG] 23:41:41:706 Broker/(3735:3927): Se recibio confirmacion de recepcion del proceso: 5
+[INFO] 23:41:42:136 Broker/(3735:3929): Nueva conexion
+[INFO] 23:41:42:136 Broker/(3735:3929): Llegada de un nuevo mensaje a la cola de mensajes CAUP
+[DEBUG] 23:41:42:136 Broker/(3735:3929): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:41:42:137 Broker/(3735:3929): Se elimina el msg Pos: 32 Tamanio 32
+[DEBUG] 23:41:42:137 Broker/(3735:3929): Estado de la Cache luego de eliminar:
+[INFO] 23:41:42:137 Broker/(3735:3929): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 32
+[DEBUG] 23:41:42:137 Broker/(3735:3929): Llegada de un nuevo mensaje CAUGHT_POKEMON=[id|confirmacion]=[13|1]
+[INFO] 23:41:42:137 Broker/(3735:3929): Almacenamiento de CAUGHT_POKEMON en memoria, posicion: 32
+[DEBUG] 23:41:42:138 Broker/(3735:3929): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:41:42:138 Broker/(3735:3929): broker_CAUP
+[DEBUG] 23:41:42:138 Broker/(3735:3929): ----------------------> generar_lista_suscriptos 2
+[DEBUG] 23:41:42:138 Broker/(3735:3929): serializar caught pokemon
+[DEBUG] 23:41:42:138 Broker/(3735:3929): Envio de un mensaje CAUGHT [id|confirmacion]=[13|1]
+[INFO] 23:41:42:138 Broker/(3735:3931): Envío de un mensaje a un suscriptor socket: 27 (tamaño: 8)
+[DEBUG] 23:41:42:139 Broker/(3735:3931): Se recibio confirmacion de recepcion del proceso: 27
+[INFO] 23:41:42:139 Broker/(3735:3930): Envío de un mensaje a un suscriptor socket: 18 (tamaño: 8)
+[DEBUG] 23:41:42:139 Broker/(3735:3930): Se recibio confirmacion de recepcion del proceso: 18
+[INFO] 23:41:46:708 Broker/(3735:3935): Nueva conexion
+[INFO] 23:41:46:708 Broker/(3735:3935): Llegada de un nuevo mensaje a la cola de mensajes CAUP
+[DEBUG] 23:41:46:708 Broker/(3735:3935): Llegada de un nuevo mensaje CAUGHT_POKEMON=[id|confirmacion]=[14|1]
+[INFO] 23:41:46:708 Broker/(3735:3935): Almacenamiento de CAUGHT_POKEMON en memoria, posicion: 36
+[DEBUG] 23:41:46:709 Broker/(3735:3935): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:41:46:709 Broker/(3735:3935): broker_CAUP
+[DEBUG] 23:41:46:709 Broker/(3735:3935): ----------------------> generar_lista_suscriptos 2
+[DEBUG] 23:41:46:709 Broker/(3735:3935): serializar caught pokemon
+[DEBUG] 23:41:46:709 Broker/(3735:3935): Envio de un mensaje CAUGHT [id|confirmacion]=[14|1]
+[INFO] 23:41:46:709 Broker/(3735:3937): Envío de un mensaje a un suscriptor socket: 27 (tamaño: 8)
+[DEBUG] 23:41:46:709 Broker/(3735:3937): Se recibio confirmacion de recepcion del proceso: 27
+[INFO] 23:41:46:710 Broker/(3735:3936): Envío de un mensaje a un suscriptor socket: 18 (tamaño: 8)
+[DEBUG] 23:41:46:710 Broker/(3735:3936): Se recibio confirmacion de recepcion del proceso: 18
+[INFO] 23:41:47:133 Broker/(3735:3940): Nueva conexion
+[INFO] 23:41:47:134 Broker/(3735:3940): Llegada de un nuevo mensaje a la cola de mensajes CATP
+[DEBUG] 23:41:47:134 Broker/(3735:3940): Se asigno el id = 15
+[DEBUG] 23:41:47:134 Broker/(3735:3940): Se envió el id correlativo del CATCH: 15
+[DEBUG] 23:41:47:134 Broker/(3735:3940): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:41:47:134 Broker/(3735:3940): Se elimina el msg Pos: 0 Tamanio 32
+[DEBUG] 23:41:47:134 Broker/(3735:3940): Estado de la Cache luego de eliminar:
+[INFO] 23:41:47:135 Broker/(3735:3940): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 0
+[DEBUG] 23:41:47:135 Broker/(3735:3940): Llegada de un nuevo mensaje CATCH_POKEMON=Largo|'pokemon'|posX|posY]=[8|'Flareon'|4|6]
+[INFO] 23:41:47:135 Broker/(3735:3940): Almacenamiento de CATCH_POKEMON en memoria, posicion : 0
+[DEBUG] 23:41:47:136 Broker/(3735:3940): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:41:47:136 Broker/(3735:3940): broker_CATP
+[DEBUG] 23:41:47:136 Broker/(3735:3940): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:41:47:136 Broker/(3735:3940): serializar ap o catch
+[DEBUG] 23:41:47:136 Broker/(3735:3940): Envio de un mensaje CATCH/APPEARED [len|pok|x|y|id] = [7|Flareon|4|6|15]
+[INFO] 23:41:47:136 Broker/(3735:3941): Envío de un mensaje a un suscriptor socket: 5 (tamaño: 24)
+[DEBUG] 23:41:47:137 Broker/(3735:3941): Se recibio confirmacion de recepcion del proceso: 5
+[INFO] 23:41:52:138 Broker/(3735:3944): Nueva conexion
+[INFO] 23:41:52:138 Broker/(3735:3944): Llegada de un nuevo mensaje a la cola de mensajes CAUP
+[DEBUG] 23:41:52:139 Broker/(3735:3944): Llegada de un nuevo mensaje CAUGHT_POKEMON=[id|confirmacion]=[15|1]
+[INFO] 23:41:52:139 Broker/(3735:3944): Almacenamiento de CAUGHT_POKEMON en memoria, posicion: 40
+[DEBUG] 23:41:52:139 Broker/(3735:3944): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:41:52:139 Broker/(3735:3944): broker_CAUP
+[DEBUG] 23:41:52:139 Broker/(3735:3944): ----------------------> generar_lista_suscriptos 2
+[DEBUG] 23:41:52:140 Broker/(3735:3944): serializar caught pokemon
+[DEBUG] 23:41:52:140 Broker/(3735:3944): Envio de un mensaje CAUGHT [id|confirmacion]=[15|1]
+[INFO] 23:41:52:140 Broker/(3735:3946): Envío de un mensaje a un suscriptor socket: 27 (tamaño: 8)
+[DEBUG] 23:41:52:140 Broker/(3735:3946): Se recibio confirmacion de recepcion del proceso: 27
+[INFO] 23:41:52:140 Broker/(3735:3945): Envío de un mensaje a un suscriptor socket: 18 (tamaño: 8)
+[DEBUG] 23:41:52:141 Broker/(3735:3945): Se recibio confirmacion de recepcion del proceso: 18
+[INFO] 23:42:46:703 Broker/(3735:3974): Nueva conexion
+[INFO] 23:42:46:703 Broker/(3735:3974): Llegada de un nuevo mensaje a la cola de mensajes CATP
+[DEBUG] 23:42:46:703 Broker/(3735:3974): Se asigno el id = 16
+[DEBUG] 23:42:46:703 Broker/(3735:3974): Se envió el id correlativo del CATCH: 16
+[DEBUG] 23:42:46:703 Broker/(3735:3974): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:42:46:704 Broker/(3735:3974): Se elimina el msg Pos: 32 Tamanio 4
+[DEBUG] 23:42:46:704 Broker/(3735:3974): Estado de la Cache luego de eliminar:
+[INFO] 23:42:46:704 Broker/(3735:3974): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 32
+[DEBUG] 23:42:46:704 Broker/(3735:3974): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:42:46:704 Broker/(3735:3974): Se elimina el msg Pos: 36 Tamanio 4
+[DEBUG] 23:42:46:704 Broker/(3735:3974): Particion Companiero Posicion 32 Tamanio 4
+[DEBUG] 23:42:46:705 Broker/(3735:3974): Nueva Part. libre Posicion 32 Tamanio 8
+[DEBUG] 23:42:46:705 Broker/(3735:3974): Estado de la Cache luego de eliminar:
+[INFO] 23:42:46:705 Broker/(3735:3974): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 36
+[DEBUG] 23:42:46:705 Broker/(3735:3974): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:42:46:705 Broker/(3735:3974): Se elimina el msg Pos: 0 Tamanio 32
+[DEBUG] 23:42:46:705 Broker/(3735:3974): Estado de la Cache luego de eliminar:
+[INFO] 23:42:46:706 Broker/(3735:3974): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 0
+[DEBUG] 23:42:46:706 Broker/(3735:3974): Llegada de un nuevo mensaje CATCH_POKEMON=Largo|'pokemon'|posX|posY]=[8|'Pikachu'|9|9]
+[INFO] 23:42:46:706 Broker/(3735:3974): Almacenamiento de CATCH_POKEMON en memoria, posicion : 0
+[DEBUG] 23:42:46:706 Broker/(3735:3974): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:42:46:706 Broker/(3735:3974): broker_CATP
+[DEBUG] 23:42:46:707 Broker/(3735:3974): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:42:46:707 Broker/(3735:3974): serializar ap o catch
+[DEBUG] 23:42:46:707 Broker/(3735:3974): Envio de un mensaje CATCH/APPEARED [len|pok|x|y|id] = [7|Pikachu|9|9|16]
+[INFO] 23:42:46:707 Broker/(3735:3975): Envío de un mensaje a un suscriptor socket: 5 (tamaño: 24)
+[DEBUG] 23:42:46:707 Broker/(3735:3975): Se recibio confirmacion de recepcion del proceso: 5
+[INFO] 23:42:51:709 Broker/(3735:3977): Nueva conexion
+[INFO] 23:42:51:709 Broker/(3735:3977): Llegada de un nuevo mensaje a la cola de mensajes CAUP
+[DEBUG] 23:42:51:710 Broker/(3735:3977): Llegada de un nuevo mensaje CAUGHT_POKEMON=[id|confirmacion]=[16|1]
+[INFO] 23:42:51:710 Broker/(3735:3977): Almacenamiento de CAUGHT_POKEMON en memoria, posicion: 32
+[DEBUG] 23:42:51:710 Broker/(3735:3977): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:42:51:710 Broker/(3735:3977): broker_CAUP
+[DEBUG] 23:42:51:711 Broker/(3735:3977): ----------------------> generar_lista_suscriptos 2
+[DEBUG] 23:42:51:711 Broker/(3735:3977): serializar caught pokemon
+[DEBUG] 23:42:51:711 Broker/(3735:3977): Envio de un mensaje CAUGHT [id|confirmacion]=[16|1]
+[INFO] 23:42:51:711 Broker/(3735:3979): Envío de un mensaje a un suscriptor socket: 27 (tamaño: 8)
+[DEBUG] 23:42:51:711 Broker/(3735:3979): Se recibio confirmacion de recepcion del proceso: 27
+[INFO] 23:42:51:712 Broker/(3735:3978): Envío de un mensaje a un suscriptor socket: 18 (tamaño: 8)
+[DEBUG] 23:42:51:712 Broker/(3735:3978): Se recibio confirmacion de recepcion del proceso: 18
+[INFO] 23:47:38:337 Broker/(3735:4116): Nueva conexion
+[INFO] 23:47:38:337 Broker/(3735:4116): Llegada de un nuevo mensaje a la cola de mensajes NP
+[DEBUG] 23:47:38:337 Broker/(3735:4116): Se asigno el id = 17
+[DEBUG] 23:47:38:337 Broker/(3735:4116): Deserializar NEW [Largo|'pokemon'|posX|posY|cant]=[5|'Onix'|2|8|1]
+[DEBUG] 23:47:38:337 Broker/(3735:4116): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:47:38:338 Broker/(3735:4116): Se elimina el msg Pos: 40 Tamanio 4
+[DEBUG] 23:47:38:338 Broker/(3735:4116): Particion Companiero Posicion 44 Tamanio 4
+[DEBUG] 23:47:38:338 Broker/(3735:4116): Nueva Part. libre Posicion 40 Tamanio 8
+[DEBUG] 23:47:38:338 Broker/(3735:4116): Estado de la Cache luego de eliminar:
+[INFO] 23:47:38:338 Broker/(3735:4116): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 40
+[DEBUG] 23:47:38:338 Broker/(3735:4116): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:47:38:338 Broker/(3735:4116): Se elimina el msg Pos: 0 Tamanio 32
+[DEBUG] 23:47:38:338 Broker/(3735:4116): Estado de la Cache luego de eliminar:
+[INFO] 23:47:38:338 Broker/(3735:4116): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 0
+[DEBUG] 23:47:38:338 Broker/(3735:4116): Llegada de un nuevo mensaje NEW_POKEMON=[Largo|'pokemon'|posX|posY|cant]=[4|'Onix'|2|8|1]
+[INFO] 23:47:38:339 Broker/(3735:4116): Almacenamiento de NEW_POKEMON en memoria, posicion: 0
+[DEBUG] 23:47:38:339 Broker/(3735:4116): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:47:38:339 Broker/(3735:4116): broker_NP
+[DEBUG] 23:47:38:339 Broker/(3735:4116): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:47:38:339 Broker/(3735:4116): serializar new pokemon
+[DEBUG] 23:47:38:339 Broker/(3735:4116): Envio de un mensaje NEW [Largo|pokemon|posX|posY|cant|id] = [4|Onix|2|8|1|17]
+[INFO] 23:47:38:340 Broker/(3735:4118): Envío de un mensaje a un suscriptor socket: 8 (tamaño: 25)
+[DEBUG] 23:47:38:340 Broker/(3735:4118): Se recibio confirmacion de recepcion del proceso: 8
+[INFO] 23:47:38:340 Broker/(3735:4119): Nueva conexion
+[INFO] 23:47:38:340 Broker/(3735:4119): Llegada de un nuevo mensaje a la cola de mensajes NP
+[DEBUG] 23:47:38:340 Broker/(3735:4119): Se asigno el id = 18
+[DEBUG] 23:47:38:340 Broker/(3735:4119): Deserializar NEW [Largo|'pokemon'|posX|posY|cant]=[7|'Gengar'|6|6|1]
+[DEBUG] 23:47:38:340 Broker/(3735:4119): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:47:38:340 Broker/(3735:4119): Se elimina el msg Pos: 32 Tamanio 4
+[DEBUG] 23:47:38:341 Broker/(3735:4119): Particion Companiero Posicion 36 Tamanio 4
+[DEBUG] 23:47:38:341 Broker/(3735:4119): Nueva Part. libre Posicion 32 Tamanio 8
+[DEBUG] 23:47:38:341 Broker/(3735:4119): Particion Companiero Posicion 40 Tamanio 8
+[DEBUG] 23:47:38:341 Broker/(3735:4119): Nueva Part. libre Posicion 32 Tamanio 16
+[DEBUG] 23:47:38:341 Broker/(3735:4119): Particion Companiero Posicion 48 Tamanio 16
+[DEBUG] 23:47:38:341 Broker/(3735:4119): Nueva Part. libre Posicion 32 Tamanio 32
+[DEBUG] 23:47:38:341 Broker/(3735:4119): Estado de la Cache luego de eliminar:
+[INFO] 23:47:38:341 Broker/(3735:4119): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 32
+[DEBUG] 23:47:38:342 Broker/(3735:4119): Llegada de un nuevo mensaje NEW_POKEMON=[Largo|'pokemon'|posX|posY|cant]=[6|'Gengar'|6|6|1]
+[INFO] 23:47:38:342 Broker/(3735:4119): Almacenamiento de NEW_POKEMON en memoria, posicion: 32
+[DEBUG] 23:47:38:342 Broker/(3735:4119): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:47:38:342 Broker/(3735:4119): broker_NP
+[DEBUG] 23:47:38:342 Broker/(3735:4119): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:47:38:342 Broker/(3735:4119): serializar new pokemon
+[DEBUG] 23:47:38:342 Broker/(3735:4119): Envio de un mensaje NEW [Largo|pokemon|posX|posY|cant|id] = [6|Gengar|6|6|1|18]
+[INFO] 23:47:38:343 Broker/(3735:4122): Envío de un mensaje a un suscriptor socket: 8 (tamaño: 27)
+[DEBUG] 23:47:38:343 Broker/(3735:4122): Se recibio confirmacion de recepcion del proceso: 8
+[INFO] 23:47:38:343 Broker/(3735:4123): Nueva conexion
+[INFO] 23:47:38:344 Broker/(3735:4123): Llegada de un nuevo mensaje a la cola de mensajes NP
+[DEBUG] 23:47:38:344 Broker/(3735:4123): Se asigno el id = 19
+[DEBUG] 23:47:38:344 Broker/(3735:4123): Deserializar NEW [Largo|'pokemon'|posX|posY|cant]=[9|'Squirtle'|5|5|1]
+[DEBUG] 23:47:38:344 Broker/(3735:4123): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:47:38:344 Broker/(3735:4123): Se elimina el msg Pos: 0 Tamanio 32
+[DEBUG] 23:47:38:344 Broker/(3735:4123): Estado de la Cache luego de eliminar:
+[INFO] 23:47:38:344 Broker/(3735:4123): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 0
+[DEBUG] 23:47:38:344 Broker/(3735:4123): Llegada de un nuevo mensaje NEW_POKEMON=[Largo|'pokemon'|posX|posY|cant]=[8|'Squirtle'|5|5|1]
+[INFO] 23:47:38:344 Broker/(3735:4123): Almacenamiento de NEW_POKEMON en memoria, posicion: 0
+[DEBUG] 23:47:38:344 Broker/(3735:4123): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:47:38:345 Broker/(3735:4123): broker_NP
+[DEBUG] 23:47:38:345 Broker/(3735:4123): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:47:38:348 Broker/(3735:4123): serializar new pokemon
+[DEBUG] 23:47:38:348 Broker/(3735:4123): Envio de un mensaje NEW [Largo|pokemon|posX|posY|cant|id] = [8|Squirtle|5|5|1|19]
+[INFO] 23:47:38:348 Broker/(3735:4126): Envío de un mensaje a un suscriptor socket: 8 (tamaño: 29)
+[DEBUG] 23:47:38:348 Broker/(3735:4126): Se recibio confirmacion de recepcion del proceso: 8
+[INFO] 23:47:38:349 Broker/(3735:4127): Nueva conexion
+[INFO] 23:47:38:349 Broker/(3735:4127): Llegada de un nuevo mensaje a la cola de mensajes NP
+[DEBUG] 23:47:38:349 Broker/(3735:4127): Se asigno el id = 20
+[DEBUG] 23:47:38:349 Broker/(3735:4127): Deserializar NEW [Largo|'pokemon'|posX|posY|cant]=[8|'Umbreon'|10|6|1]
+[DEBUG] 23:47:38:350 Broker/(3735:4127): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:47:38:350 Broker/(3735:4127): Se elimina el msg Pos: 32 Tamanio 32
+[DEBUG] 23:47:38:350 Broker/(3735:4127): Estado de la Cache luego de eliminar:
+[INFO] 23:47:38:350 Broker/(3735:4127): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 32
+[DEBUG] 23:47:38:350 Broker/(3735:4127): Llegada de un nuevo mensaje NEW_POKEMON=[Largo|'pokemon'|posX|posY|cant]=[7|'Umbreon'|10|6|1]
+[INFO] 23:47:38:350 Broker/(3735:4127): Almacenamiento de NEW_POKEMON en memoria, posicion: 32
+[DEBUG] 23:47:38:350 Broker/(3735:4127): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:47:38:351 Broker/(3735:4127): broker_NP
+[DEBUG] 23:47:38:351 Broker/(3735:4127): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:47:38:351 Broker/(3735:4127): serializar new pokemon
+[DEBUG] 23:47:38:351 Broker/(3735:4127): Envio de un mensaje NEW [Largo|pokemon|posX|posY|cant|id] = [7|Umbreon|10|6|1|20]
+[INFO] 23:47:38:352 Broker/(3735:4130): Envío de un mensaje a un suscriptor socket: 8 (tamaño: 28)
+[DEBUG] 23:47:38:352 Broker/(3735:4130): Se recibio confirmacion de recepcion del proceso: 8
+[INFO] 23:47:38:352 Broker/(3735:4131): Nueva conexion
+[INFO] 23:47:38:352 Broker/(3735:4131): Llegada de un nuevo mensaje a la cola de mensajes NP
+[DEBUG] 23:47:38:353 Broker/(3735:4131): Se asigno el id = 21
+[DEBUG] 23:47:38:353 Broker/(3735:4131): Deserializar NEW [Largo|'pokemon'|posX|posY|cant]=[7|'Espeon'|7|1|1]
+[DEBUG] 23:47:38:353 Broker/(3735:4131): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:47:38:353 Broker/(3735:4131): Se elimina el msg Pos: 0 Tamanio 32
+[DEBUG] 23:47:38:353 Broker/(3735:4131): Estado de la Cache luego de eliminar:
+[INFO] 23:47:38:353 Broker/(3735:4131): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 0
+[DEBUG] 23:47:38:353 Broker/(3735:4131): Llegada de un nuevo mensaje NEW_POKEMON=[Largo|'pokemon'|posX|posY|cant]=[6|'Espeon'|7|1|1]
+[INFO] 23:47:38:353 Broker/(3735:4131): Almacenamiento de NEW_POKEMON en memoria, posicion: 0
+[DEBUG] 23:47:38:353 Broker/(3735:4131): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:47:38:354 Broker/(3735:4131): broker_NP
+[DEBUG] 23:47:38:354 Broker/(3735:4131): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:47:38:354 Broker/(3735:4131): serializar new pokemon
+[DEBUG] 23:47:38:354 Broker/(3735:4131): Envio de un mensaje NEW [Largo|pokemon|posX|posY|cant|id] = [6|Espeon|7|1|1|21]
+[INFO] 23:47:38:355 Broker/(3735:4134): Envío de un mensaje a un suscriptor socket: 8 (tamaño: 27)
+[DEBUG] 23:47:38:355 Broker/(3735:4134): Se recibio confirmacion de recepcion del proceso: 8
+[INFO] 23:47:38:355 Broker/(3735:4135): Nueva conexion
+[INFO] 23:47:38:356 Broker/(3735:4135): Llegada de un nuevo mensaje a la cola de mensajes NP
+[DEBUG] 23:47:38:356 Broker/(3735:4135): Se asigno el id = 22
+[DEBUG] 23:47:38:356 Broker/(3735:4135): Deserializar NEW [Largo|'pokemon'|posX|posY|cant]=[9|'Vaporeon'|4|10|1]
+[DEBUG] 23:47:38:356 Broker/(3735:4135): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:47:38:356 Broker/(3735:4135): Se elimina el msg Pos: 32 Tamanio 32
+[DEBUG] 23:47:38:356 Broker/(3735:4135): Estado de la Cache luego de eliminar:
+[INFO] 23:47:38:356 Broker/(3735:4135): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 32
+[DEBUG] 23:47:38:356 Broker/(3735:4135): Llegada de un nuevo mensaje NEW_POKEMON=[Largo|'pokemon'|posX|posY|cant]=[8|'Vaporeon'|4|10|1]
+[INFO] 23:47:38:356 Broker/(3735:4135): Almacenamiento de NEW_POKEMON en memoria, posicion: 32
+[DEBUG] 23:47:38:357 Broker/(3735:4135): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:47:38:357 Broker/(3735:4135): broker_NP
+[DEBUG] 23:47:38:357 Broker/(3735:4135): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:47:38:358 Broker/(3735:4135): serializar new pokemon
+[DEBUG] 23:47:38:358 Broker/(3735:4135): Envio de un mensaje NEW [Largo|pokemon|posX|posY|cant|id] = [8|Vaporeon|4|10|1|22]
+[INFO] 23:47:38:358 Broker/(3735:4138): Envío de un mensaje a un suscriptor socket: 8 (tamaño: 29)
+[DEBUG] 23:47:38:358 Broker/(3735:4138): Se recibio confirmacion de recepcion del proceso: 8
+[INFO] 23:47:43:348 Broker/(3735:4147): Nueva conexion
+[INFO] 23:47:43:349 Broker/(3735:4147): Llegada de un nuevo mensaje a la cola de mensajes AP
+[DEBUG] 23:47:43:349 Broker/(3735:4147): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:47:43:349 Broker/(3735:4147): Se elimina el msg Pos: 0 Tamanio 32
+[DEBUG] 23:47:43:349 Broker/(3735:4147): Estado de la Cache luego de eliminar:
+[INFO] 23:47:43:349 Broker/(3735:4147): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 0
+[DEBUG] 23:47:43:349 Broker/(3735:4147): Llegada de un nuevo mensaje APPEARED_POKEMON=Largo|'pokemon'|posX|posY]=[6|'Gengar'|6|6]
+[INFO] 23:47:43:349 Broker/(3735:4147): Almacenamiento de APPEARED_POKEMON en memoria, posicion : 0
+[DEBUG] 23:47:43:350 Broker/(3735:4147): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:47:43:350 Broker/(3735:4147): broker_AP
+[DEBUG] 23:47:43:350 Broker/(3735:4147): ----------------------> generar_lista_suscriptos 2
+[DEBUG] 23:47:43:350 Broker/(3735:4147): serializar ap o catch
+[DEBUG] 23:47:43:350 Broker/(3735:4147): Envio de un mensaje CATCH/APPEARED [len|pok|x|y|id] = [6|Gengar|6|6|18]
+[INFO] 23:47:43:348 Broker/(3735:4146): Nueva conexion
+[INFO] 23:47:43:350 Broker/(3735:4146): Llegada de un nuevo mensaje a la cola de mensajes AP
+[DEBUG] 23:47:43:350 Broker/(3735:4146): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:47:43:350 Broker/(3735:4146): Se elimina el msg Pos: 32 Tamanio 32
+[DEBUG] 23:47:43:350 Broker/(3735:4146): Estado de la Cache luego de eliminar:
+[INFO] 23:47:43:351 Broker/(3735:4146): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 32
+[DEBUG] 23:47:43:351 Broker/(3735:4146): Llegada de un nuevo mensaje APPEARED_POKEMON=Largo|'pokemon'|posX|posY]=[4|'Onix'|2|8]
+[INFO] 23:47:43:351 Broker/(3735:4146): Almacenamiento de APPEARED_POKEMON en memoria, posicion : 32
+[DEBUG] 23:47:43:351 Broker/(3735:4146): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:47:43:351 Broker/(3735:4146): broker_AP
+[DEBUG] 23:47:43:351 Broker/(3735:4146): ----------------------> generar_lista_suscriptos 2
+[DEBUG] 23:47:43:351 Broker/(3735:4146): serializar ap o catch
+[DEBUG] 23:47:43:351 Broker/(3735:4146): Envio de un mensaje CATCH/APPEARED [len|pok|x|y|id] = [4|Onix|2|8|17]
+[INFO] 23:47:43:352 Broker/(3735:4150): Nueva conexion
+[INFO] 23:47:43:352 Broker/(3735:4152): Envío de un mensaje a un suscriptor socket: 26 (tamaño: 21)
+[INFO] 23:47:43:352 Broker/(3735:4150): Llegada de un nuevo mensaje a la cola de mensajes AP
+[DEBUG] 23:47:43:352 Broker/(3735:4150): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:47:43:352 Broker/(3735:4150): Se elimina el msg Pos: 0 Tamanio 32
+[DEBUG] 23:47:43:352 Broker/(3735:4150): Estado de la Cache luego de eliminar:
+[INFO] 23:47:43:353 Broker/(3735:4150): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 0
+[DEBUG] 23:47:43:353 Broker/(3735:4150): Llegada de un nuevo mensaje APPEARED_POKEMON=Largo|'pokemon'|posX|posY]=[8|'Squirtle'|5|5]
+[INFO] 23:47:43:353 Broker/(3735:4151): Envío de un mensaje a un suscriptor socket: 17 (tamaño: 21)
+[INFO] 23:47:43:353 Broker/(3735:4150): Almacenamiento de APPEARED_POKEMON en memoria, posicion : 0
+[DEBUG] 23:47:43:353 Broker/(3735:4150): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:47:43:353 Broker/(3735:4150): broker_AP
+[DEBUG] 23:47:43:353 Broker/(3735:4150): ----------------------> generar_lista_suscriptos 2
+[DEBUG] 23:47:43:353 Broker/(3735:4150): serializar ap o catch
+[DEBUG] 23:47:43:353 Broker/(3735:4150): Envio de un mensaje CATCH/APPEARED [len|pok|x|y|id] = [8|Squirtle|5|5|19]
+[DEBUG] 23:47:43:354 Broker/(3735:4152): Se recibio confirmacion de recepcion del proceso: 26
+[DEBUG] 23:47:43:354 Broker/(3735:4151): Se recibio confirmacion de recepcion del proceso: 17
+[INFO] 23:47:43:354 Broker/(3735:4149): Envío de un mensaje a un suscriptor socket: 26 (tamaño: 23)
+[DEBUG] 23:47:43:354 Broker/(3735:4149): Se recibio confirmacion de recepcion del proceso: 26
+[INFO] 23:47:43:354 Broker/(3735:4148): Envío de un mensaje a un suscriptor socket: 17 (tamaño: 23)
+[DEBUG] 23:47:43:354 Broker/(3735:4148): Se recibio confirmacion de recepcion del proceso: 17
+[INFO] 23:47:43:355 Broker/(3735:4156): Envío de un mensaje a un suscriptor socket: 26 (tamaño: 25)
+[DEBUG] 23:47:43:355 Broker/(3735:4156): Se recibio confirmacion de recepcion del proceso: 26
+[INFO] 23:47:43:355 Broker/(3735:4155): Envío de un mensaje a un suscriptor socket: 17 (tamaño: 25)
+[DEBUG] 23:47:43:355 Broker/(3735:4155): Se recibio confirmacion de recepcion del proceso: 17
+[INFO] 23:47:43:355 Broker/(3735:4159): Nueva conexion
+[INFO] 23:47:43:355 Broker/(3735:4159): Llegada de un nuevo mensaje a la cola de mensajes AP
+[DEBUG] 23:47:43:355 Broker/(3735:4159): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:47:43:355 Broker/(3735:4159): Se elimina el msg Pos: 32 Tamanio 16
+[DEBUG] 23:47:43:355 Broker/(3735:4159): Particion Companiero Posicion 48 Tamanio 16
+[DEBUG] 23:47:43:355 Broker/(3735:4159): Nueva Part. libre Posicion 32 Tamanio 32
+[DEBUG] 23:47:43:356 Broker/(3735:4159): Estado de la Cache luego de eliminar:
+[INFO] 23:47:43:356 Broker/(3735:4159): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 32
+[DEBUG] 23:47:43:356 Broker/(3735:4159): Llegada de un nuevo mensaje APPEARED_POKEMON=Largo|'pokemon'|posX|posY]=[7|'Umbreon'|10|6]
+[INFO] 23:47:43:356 Broker/(3735:4159): Almacenamiento de APPEARED_POKEMON en memoria, posicion : 32
+[DEBUG] 23:47:43:356 Broker/(3735:4159): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:47:43:356 Broker/(3735:4159): broker_AP
+[DEBUG] 23:47:43:356 Broker/(3735:4159): ----------------------> generar_lista_suscriptos 2
+[DEBUG] 23:47:43:356 Broker/(3735:4159): serializar ap o catch
+[DEBUG] 23:47:43:356 Broker/(3735:4159): Envio de un mensaje CATCH/APPEARED [len|pok|x|y|id] = [7|Umbreon|10|6|20]
+[INFO] 23:47:43:357 Broker/(3735:4163): Envío de un mensaje a un suscriptor socket: 26 (tamaño: 24)
+[DEBUG] 23:47:43:357 Broker/(3735:4163): Se recibio confirmacion de recepcion del proceso: 26
+[INFO] 23:47:43:357 Broker/(3735:4162): Envío de un mensaje a un suscriptor socket: 17 (tamaño: 24)
+[DEBUG] 23:47:43:357 Broker/(3735:4162): Se recibio confirmacion de recepcion del proceso: 17
+[INFO] 23:47:43:357 Broker/(3735:4166): Nueva conexion
+[INFO] 23:47:43:358 Broker/(3735:4166): Llegada de un nuevo mensaje a la cola de mensajes AP
+[DEBUG] 23:47:43:358 Broker/(3735:4166): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:47:43:358 Broker/(3735:4166): Se elimina el msg Pos: 0 Tamanio 32
+[DEBUG] 23:47:43:358 Broker/(3735:4166): Estado de la Cache luego de eliminar:
+[INFO] 23:47:43:358 Broker/(3735:4166): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 0
+[DEBUG] 23:47:43:358 Broker/(3735:4166): Llegada de un nuevo mensaje APPEARED_POKEMON=Largo|'pokemon'|posX|posY]=[6|'Espeon'|7|1]
+[INFO] 23:47:43:358 Broker/(3735:4166): Almacenamiento de APPEARED_POKEMON en memoria, posicion : 0
+[DEBUG] 23:47:43:358 Broker/(3735:4166): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:47:43:361 Broker/(3735:4166): broker_AP
+[DEBUG] 23:47:43:361 Broker/(3735:4166): ----------------------> generar_lista_suscriptos 2
+[DEBUG] 23:47:43:361 Broker/(3735:4166): serializar ap o catch
+[DEBUG] 23:47:43:361 Broker/(3735:4166): Envio de un mensaje CATCH/APPEARED [len|pok|x|y|id] = [6|Espeon|7|1|21]
+[INFO] 23:47:43:361 Broker/(3735:4167): Nueva conexion
+[INFO] 23:47:43:361 Broker/(3735:4167): Llegada de un nuevo mensaje a la cola de mensajes AP
+[DEBUG] 23:47:43:361 Broker/(3735:4167): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:47:43:362 Broker/(3735:4167): Se elimina el msg Pos: 32 Tamanio 32
+[DEBUG] 23:47:43:362 Broker/(3735:4167): Estado de la Cache luego de eliminar:
+[INFO] 23:47:43:362 Broker/(3735:4167): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 32
+[DEBUG] 23:47:43:362 Broker/(3735:4167): Llegada de un nuevo mensaje APPEARED_POKEMON=Largo|'pokemon'|posX|posY]=[8|'Vaporeon'|4|10]
+[INFO] 23:47:43:362 Broker/(3735:4169): Envío de un mensaje a un suscriptor socket: 26 (tamaño: 23)
+[INFO] 23:47:43:362 Broker/(3735:4167): Almacenamiento de APPEARED_POKEMON en memoria, posicion : 32
+[DEBUG] 23:47:43:362 Broker/(3735:4167): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:47:43:362 Broker/(3735:4167): broker_AP
+[DEBUG] 23:47:43:362 Broker/(3735:4167): ----------------------> generar_lista_suscriptos 2
+[DEBUG] 23:47:43:362 Broker/(3735:4167): serializar ap o catch
+[DEBUG] 23:47:43:363 Broker/(3735:4167): Envio de un mensaje CATCH/APPEARED [len|pok|x|y|id] = [8|Vaporeon|4|10|22]
+[DEBUG] 23:47:43:363 Broker/(3735:4169): Se recibio confirmacion de recepcion del proceso: 26
+[INFO] 23:47:43:363 Broker/(3735:4168): Envío de un mensaje a un suscriptor socket: 17 (tamaño: 23)
+[DEBUG] 23:47:43:363 Broker/(3735:4168): Se recibio confirmacion de recepcion del proceso: 17
+[INFO] 23:47:43:363 Broker/(3735:4172): Envío de un mensaje a un suscriptor socket: 26 (tamaño: 25)
+[DEBUG] 23:47:43:363 Broker/(3735:4172): Se recibio confirmacion de recepcion del proceso: 26
+[INFO] 23:47:43:363 Broker/(3735:4171): Envío de un mensaje a un suscriptor socket: 17 (tamaño: 25)
+[DEBUG] 23:47:43:363 Broker/(3735:4171): Se recibio confirmacion de recepcion del proceso: 17
+[INFO] 23:48:13:359 Broker/(3735:4177): Nueva conexion
+[INFO] 23:48:13:359 Broker/(3735:4177): Llegada de un nuevo mensaje a la cola de mensajes CATP
+[DEBUG] 23:48:13:359 Broker/(3735:4177): Se asigno el id = 23
+[DEBUG] 23:48:13:359 Broker/(3735:4177): Se envió el id correlativo del CATCH: 23
+[DEBUG] 23:48:13:359 Broker/(3735:4177): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:48:13:359 Broker/(3735:4177): Se elimina el msg Pos: 0 Tamanio 32
+[DEBUG] 23:48:13:360 Broker/(3735:4177): Estado de la Cache luego de eliminar:
+[INFO] 23:48:13:360 Broker/(3735:4177): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 0
+[DEBUG] 23:48:13:360 Broker/(3735:4177): Llegada de un nuevo mensaje CATCH_POKEMON=Largo|'pokemon'|posX|posY]=[5|'Onix'|2|8]
+[INFO] 23:48:13:361 Broker/(3735:4177): Almacenamiento de CATCH_POKEMON en memoria, posicion : 0
+[DEBUG] 23:48:13:361 Broker/(3735:4177): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:48:13:361 Broker/(3735:4177): broker_CATP
+[DEBUG] 23:48:13:361 Broker/(3735:4177): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:48:13:361 Broker/(3735:4177): serializar ap o catch
+[DEBUG] 23:48:13:362 Broker/(3735:4177): Envio de un mensaje CATCH/APPEARED [len|pok|x|y|id] = [4|Onix|2|8|23]
+[INFO] 23:48:13:363 Broker/(3735:4178): Envío de un mensaje a un suscriptor socket: 5 (tamaño: 21)
+[DEBUG] 23:48:13:363 Broker/(3735:4178): Se recibio confirmacion de recepcion del proceso: 5
+[INFO] 23:48:18:364 Broker/(3735:4190): Nueva conexion
+[INFO] 23:48:18:365 Broker/(3735:4190): Llegada de un nuevo mensaje a la cola de mensajes CAUP
+[DEBUG] 23:48:18:365 Broker/(3735:4190): Llegada de un nuevo mensaje CAUGHT_POKEMON=[id|confirmacion]=[23|1]
+[INFO] 23:48:18:365 Broker/(3735:4190): Almacenamiento de CAUGHT_POKEMON en memoria, posicion: 16
+[DEBUG] 23:48:18:365 Broker/(3735:4190): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:48:18:365 Broker/(3735:4190): broker_CAUP
+[DEBUG] 23:48:18:366 Broker/(3735:4190): ----------------------> generar_lista_suscriptos 2
+[DEBUG] 23:48:18:366 Broker/(3735:4190): serializar caught pokemon
+[DEBUG] 23:48:18:366 Broker/(3735:4190): Envio de un mensaje CAUGHT [id|confirmacion]=[23|1]
+[INFO] 23:48:18:366 Broker/(3735:4192): Envío de un mensaje a un suscriptor socket: 27 (tamaño: 8)
+[DEBUG] 23:48:18:366 Broker/(3735:4192): Se recibio confirmacion de recepcion del proceso: 27
+[INFO] 23:48:18:366 Broker/(3735:4191): Envío de un mensaje a un suscriptor socket: 18 (tamaño: 8)
+[DEBUG] 23:48:18:367 Broker/(3735:4191): Se recibio confirmacion de recepcion del proceso: 18
+[INFO] 23:48:33:362 Broker/(3735:4198): Nueva conexion
+[INFO] 23:48:33:362 Broker/(3735:4199): Nueva conexion
+[INFO] 23:48:33:362 Broker/(3735:4198): Llegada de un nuevo mensaje a la cola de mensajes CATP
+[DEBUG] 23:48:33:363 Broker/(3735:4198): Se asigno el id = 24
+[INFO] 23:48:33:363 Broker/(3735:4199): Llegada de un nuevo mensaje a la cola de mensajes CATP
+[DEBUG] 23:48:33:363 Broker/(3735:4199): Se asigno el id = 25
+[DEBUG] 23:48:33:364 Broker/(3735:4199): Se envió el id correlativo del CATCH: 25
+[DEBUG] 23:48:33:364 Broker/(3735:4198): Se envió el id correlativo del CATCH: 24
+[DEBUG] 23:48:33:364 Broker/(3735:4198): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:48:33:364 Broker/(3735:4198): Se elimina el msg Pos: 32 Tamanio 32
+[DEBUG] 23:48:33:364 Broker/(3735:4198): Estado de la Cache luego de eliminar:
+[INFO] 23:48:33:365 Broker/(3735:4198): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 32
+[DEBUG] 23:48:33:365 Broker/(3735:4198): Llegada de un nuevo mensaje CATCH_POKEMON=Largo|'pokemon'|posX|posY]=[9|'Vaporeon'|4|10]
+[INFO] 23:48:33:365 Broker/(3735:4198): Almacenamiento de CATCH_POKEMON en memoria, posicion : 32
+[DEBUG] 23:48:33:365 Broker/(3735:4198): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:48:33:365 Broker/(3735:4198): broker_CATP
+[INFO] 23:48:33:365 Broker/(3735:4197): Nueva conexion
+[DEBUG] 23:48:33:365 Broker/(3735:4198): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:48:33:366 Broker/(3735:4198): serializar ap o catch
+[DEBUG] 23:48:33:366 Broker/(3735:4198): Envio de un mensaje CATCH/APPEARED [len|pok|x|y|id] = [8|Vaporeon|4|10|24]
+[DEBUG] 23:48:33:366 Broker/(3735:4199): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:48:33:366 Broker/(3735:4199): Se elimina el msg Pos: 0 Tamanio 16
+[DEBUG] 23:48:33:366 Broker/(3735:4199): Estado de la Cache luego de eliminar:
+[INFO] 23:48:33:367 Broker/(3735:4199): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 0
+[DEBUG] 23:48:33:367 Broker/(3735:4199): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:48:33:367 Broker/(3735:4199): Se elimina el msg Pos: 16 Tamanio 4
+[DEBUG] 23:48:33:367 Broker/(3735:4199): Particion Companiero Posicion 20 Tamanio 4
+[DEBUG] 23:48:33:367 Broker/(3735:4199): Nueva Part. libre Posicion 16 Tamanio 8
+[DEBUG] 23:48:33:367 Broker/(3735:4199): Particion Companiero Posicion 24 Tamanio 8
+[DEBUG] 23:48:33:367 Broker/(3735:4199): Nueva Part. libre Posicion 16 Tamanio 16
+[DEBUG] 23:48:33:367 Broker/(3735:4199): Particion Companiero Posicion 0 Tamanio 16
+[DEBUG] 23:48:33:368 Broker/(3735:4199): Nueva Part. libre Posicion 0 Tamanio 32
+[DEBUG] 23:48:33:368 Broker/(3735:4199): Estado de la Cache luego de eliminar:
+[INFO] 23:48:33:368 Broker/(3735:4199): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 16
+[DEBUG] 23:48:33:368 Broker/(3735:4199): Llegada de un nuevo mensaje CATCH_POKEMON=Largo|'pokemon'|posX|posY]=[8|'Umbreon'|10|6]
+[INFO] 23:48:33:368 Broker/(3735:4199): Almacenamiento de CATCH_POKEMON en memoria, posicion : 0
+[DEBUG] 23:48:33:368 Broker/(3735:4199): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:48:33:368 Broker/(3735:4199): broker_CATP
+[DEBUG] 23:48:33:368 Broker/(3735:4199): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:48:33:369 Broker/(3735:4199): serializar ap o catch
+[DEBUG] 23:48:33:369 Broker/(3735:4199): Envio de un mensaje CATCH/APPEARED [len|pok|x|y|id] = [7|Umbreon|10|6|25]
+[INFO] 23:48:33:369 Broker/(3735:4197): Llegada de un nuevo mensaje a la cola de mensajes CATP
+[DEBUG] 23:48:33:369 Broker/(3735:4197): Se asigno el id = 26
+[DEBUG] 23:48:33:369 Broker/(3735:4197): Se envió el id correlativo del CATCH: 26
+[DEBUG] 23:48:33:369 Broker/(3735:4197): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:48:33:369 Broker/(3735:4197): Se elimina el msg Pos: 32 Tamanio 32
+[DEBUG] 23:48:33:369 Broker/(3735:4197): Estado de la Cache luego de eliminar:
+[INFO] 23:48:33:369 Broker/(3735:4197): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 32
+[DEBUG] 23:48:33:369 Broker/(3735:4197): Llegada de un nuevo mensaje CATCH_POKEMON=Largo|'pokemon'|posX|posY]=[7|'Espeon'|7|1]
+[INFO] 23:48:33:369 Broker/(3735:4197): Almacenamiento de CATCH_POKEMON en memoria, posicion : 32
+[DEBUG] 23:48:33:369 Broker/(3735:4197): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:48:33:369 Broker/(3735:4197): broker_CATP
+[DEBUG] 23:48:33:369 Broker/(3735:4197): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:48:33:369 Broker/(3735:4197): serializar ap o catch
+[DEBUG] 23:48:33:369 Broker/(3735:4197): Envio de un mensaje CATCH/APPEARED [len|pok|x|y|id] = [6|Espeon|7|1|26]
+[INFO] 23:48:33:369 Broker/(3735:4201): Envío de un mensaje a un suscriptor socket: 5 (tamaño: 24)
+[INFO] 23:48:33:370 Broker/(3735:4202): Envío de un mensaje a un suscriptor socket: 5 (tamaño: 23)
+[DEBUG] 23:48:33:370 Broker/(3735:4201): Se recibio confirmacion de recepcion del proceso: 5
+[DEBUG] 23:48:33:370 Broker/(3735:4202): Se recibio confirmacion de recepcion del proceso: 5
+[INFO] 23:48:33:370 Broker/(3735:4200): Envío de un mensaje a un suscriptor socket: 5 (tamaño: 25)
+[DEBUG] 23:48:33:370 Broker/(3735:4200): Se recibio confirmacion de recepcion del proceso: 5
+[INFO] 23:48:38:363 Broker/(3735:4206): Nueva conexion
+[INFO] 23:48:38:363 Broker/(3735:4206): Llegada de un nuevo mensaje a la cola de mensajes CATP
+[DEBUG] 23:48:38:363 Broker/(3735:4206): Se asigno el id = 27
+[DEBUG] 23:48:38:368 Broker/(3735:4206): Se envió el id correlativo del CATCH: 27
+[DEBUG] 23:48:38:368 Broker/(3735:4206): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:48:38:369 Broker/(3735:4206): Se elimina el msg Pos: 0 Tamanio 32
+[DEBUG] 23:48:38:369 Broker/(3735:4206): Estado de la Cache luego de eliminar:
+[INFO] 23:48:38:369 Broker/(3735:4206): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 0
+[DEBUG] 23:48:38:369 Broker/(3735:4206): Llegada de un nuevo mensaje CATCH_POKEMON=Largo|'pokemon'|posX|posY]=[7|'Gengar'|6|6]
+[INFO] 23:48:38:369 Broker/(3735:4206): Almacenamiento de CATCH_POKEMON en memoria, posicion : 0
+[DEBUG] 23:48:38:369 Broker/(3735:4206): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:48:38:369 Broker/(3735:4206): broker_CATP
+[DEBUG] 23:48:38:369 Broker/(3735:4206): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:48:38:369 Broker/(3735:4206): serializar ap o catch
+[DEBUG] 23:48:38:369 Broker/(3735:4206): Envio de un mensaje CATCH/APPEARED [len|pok|x|y|id] = [6|Gengar|6|6|27]
+[INFO] 23:48:38:370 Broker/(3735:4209): Envío de un mensaje a un suscriptor socket: 5 (tamaño: 23)
+[DEBUG] 23:48:38:370 Broker/(3735:4209): Se recibio confirmacion de recepcion del proceso: 5
+[INFO] 23:48:38:372 Broker/(3735:4211): Nueva conexion
+[INFO] 23:48:38:372 Broker/(3735:4211): Llegada de un nuevo mensaje a la cola de mensajes CAUP
+[DEBUG] 23:48:38:373 Broker/(3735:4211): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:48:38:373 Broker/(3735:4211): Se elimina el msg Pos: 32 Tamanio 32
+[DEBUG] 23:48:38:373 Broker/(3735:4211): Estado de la Cache luego de eliminar:
+[INFO] 23:48:38:375 Broker/(3735:4211): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 32
+[DEBUG] 23:48:38:375 Broker/(3735:4211): Llegada de un nuevo mensaje CAUGHT_POKEMON=[id|confirmacion]=[26|1]
+[INFO] 23:48:38:375 Broker/(3735:4211): Almacenamiento de CAUGHT_POKEMON en memoria, posicion: 32
+[DEBUG] 23:48:38:375 Broker/(3735:4211): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:48:38:375 Broker/(3735:4211): broker_CAUP
+[DEBUG] 23:48:38:375 Broker/(3735:4211): ----------------------> generar_lista_suscriptos 2
+[DEBUG] 23:48:38:375 Broker/(3735:4211): serializar caught pokemon
+[DEBUG] 23:48:38:375 Broker/(3735:4211): Envio de un mensaje CAUGHT [id|confirmacion]=[26|1]
+[INFO] 23:48:38:375 Broker/(3735:4213): Nueva conexion
+[INFO] 23:48:38:376 Broker/(3735:4213): Llegada de un nuevo mensaje a la cola de mensajes CAUP
+[DEBUG] 23:48:38:376 Broker/(3735:4213): Llegada de un nuevo mensaje CAUGHT_POKEMON=[id|confirmacion]=[24|1]
+[INFO] 23:48:38:376 Broker/(3735:4213): Almacenamiento de CAUGHT_POKEMON en memoria, posicion: 36
+[DEBUG] 23:48:38:376 Broker/(3735:4213): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:48:38:376 Broker/(3735:4213): broker_CAUP
+[DEBUG] 23:48:38:376 Broker/(3735:4213): ----------------------> generar_lista_suscriptos 2
+[DEBUG] 23:48:38:376 Broker/(3735:4213): serializar caught pokemon
+[DEBUG] 23:48:38:376 Broker/(3735:4213): Envio de un mensaje CAUGHT [id|confirmacion]=[24|1]
+[INFO] 23:48:38:376 Broker/(3735:4215): Envío de un mensaje a un suscriptor socket: 27 (tamaño: 8)
+[DEBUG] 23:48:38:376 Broker/(3735:4215): Se recibio confirmacion de recepcion del proceso: 27
+[INFO] 23:48:38:377 Broker/(3735:4214): Envío de un mensaje a un suscriptor socket: 18 (tamaño: 8)
+[DEBUG] 23:48:38:377 Broker/(3735:4214): Se recibio confirmacion de recepcion del proceso: 18
+[INFO] 23:48:38:377 Broker/(3735:4212): Nueva conexion
+[INFO] 23:48:38:377 Broker/(3735:4212): Llegada de un nuevo mensaje a la cola de mensajes CAUP
+[DEBUG] 23:48:38:377 Broker/(3735:4212): Llegada de un nuevo mensaje CAUGHT_POKEMON=[id|confirmacion]=[25|1]
+[INFO] 23:48:38:377 Broker/(3735:4212): Almacenamiento de CAUGHT_POKEMON en memoria, posicion: 40
+[DEBUG] 23:48:38:377 Broker/(3735:4212): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:48:38:377 Broker/(3735:4212): broker_CAUP
+[DEBUG] 23:48:38:377 Broker/(3735:4212): ----------------------> generar_lista_suscriptos 2
+[DEBUG] 23:48:38:377 Broker/(3735:4212): serializar caught pokemon
+[DEBUG] 23:48:38:378 Broker/(3735:4212): Envio de un mensaje CAUGHT [id|confirmacion]=[25|1]
+[INFO] 23:48:38:378 Broker/(3735:4217): Envío de un mensaje a un suscriptor socket: 27 (tamaño: 8)
+[DEBUG] 23:48:38:378 Broker/(3735:4217): Se recibio confirmacion de recepcion del proceso: 27
+[INFO] 23:48:38:378 Broker/(3735:4216): Envío de un mensaje a un suscriptor socket: 18 (tamaño: 8)
+[DEBUG] 23:48:38:378 Broker/(3735:4216): Se recibio confirmacion de recepcion del proceso: 18
+[INFO] 23:48:38:378 Broker/(3735:4221): Envío de un mensaje a un suscriptor socket: 27 (tamaño: 8)
+[DEBUG] 23:48:38:378 Broker/(3735:4221): Se recibio confirmacion de recepcion del proceso: 27
+[INFO] 23:48:38:378 Broker/(3735:4220): Envío de un mensaje a un suscriptor socket: 18 (tamaño: 8)
+[DEBUG] 23:48:38:379 Broker/(3735:4220): Se recibio confirmacion de recepcion del proceso: 18
+[INFO] 23:48:43:372 Broker/(3735:4227): Nueva conexion
+[INFO] 23:48:43:373 Broker/(3735:4227): Llegada de un nuevo mensaje a la cola de mensajes CAUP
+[DEBUG] 23:48:43:373 Broker/(3735:4227): Llegada de un nuevo mensaje CAUGHT_POKEMON=[id|confirmacion]=[27|1]
+[INFO] 23:48:43:373 Broker/(3735:4227): Almacenamiento de CAUGHT_POKEMON en memoria, posicion: 44
+[DEBUG] 23:48:43:373 Broker/(3735:4227): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:48:43:374 Broker/(3735:4227): broker_CAUP
+[DEBUG] 23:48:43:374 Broker/(3735:4227): ----------------------> generar_lista_suscriptos 2
+[DEBUG] 23:48:43:374 Broker/(3735:4227): serializar caught pokemon
+[DEBUG] 23:48:43:374 Broker/(3735:4227): Envio de un mensaje CAUGHT [id|confirmacion]=[27|1]
+[INFO] 23:48:43:374 Broker/(3735:4229): Envío de un mensaje a un suscriptor socket: 27 (tamaño: 8)
+[DEBUG] 23:48:43:375 Broker/(3735:4229): Se recibio confirmacion de recepcion del proceso: 27
+[INFO] 23:48:43:375 Broker/(3735:4228): Envío de un mensaje a un suscriptor socket: 18 (tamaño: 8)
+[DEBUG] 23:48:43:375 Broker/(3735:4228): Se recibio confirmacion de recepcion del proceso: 18
+[INFO] 23:49:18:365 Broker/(3735:4246): Nueva conexion
+[INFO] 23:49:18:365 Broker/(3735:4246): Llegada de un nuevo mensaje a la cola de mensajes CATP
+[DEBUG] 23:49:18:365 Broker/(3735:4246): Se asigno el id = 28
+[DEBUG] 23:49:18:365 Broker/(3735:4246): Se envió el id correlativo del CATCH: 28
+[DEBUG] 23:49:18:365 Broker/(3735:4246): -------- Se elimina el sig mensaje ----------------------------
+[DEBUG] 23:49:18:366 Broker/(3735:4246): Se elimina el msg Pos: 0 Tamanio 32
+[DEBUG] 23:49:18:366 Broker/(3735:4246): Estado de la Cache luego de eliminar:
+[INFO] 23:49:18:366 Broker/(3735:4246): Se elimino un mensaje mediante el algoritmo de reemplazo FIFO, posicion: 0
+[DEBUG] 23:49:18:366 Broker/(3735:4246): Llegada de un nuevo mensaje CATCH_POKEMON=Largo|'pokemon'|posX|posY]=[9|'Squirtle'|5|5]
+[INFO] 23:49:18:366 Broker/(3735:4246): Almacenamiento de CATCH_POKEMON en memoria, posicion : 0
+[DEBUG] 23:49:18:367 Broker/(3735:4246): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:49:18:367 Broker/(3735:4246): broker_CATP
+[DEBUG] 23:49:18:367 Broker/(3735:4246): ----------------------> generar_lista_suscriptos 1
+[DEBUG] 23:49:18:367 Broker/(3735:4246): serializar ap o catch
+[DEBUG] 23:49:18:367 Broker/(3735:4246): Envio de un mensaje CATCH/APPEARED [len|pok|x|y|id] = [8|Squirtle|5|5|28]
+[INFO] 23:49:18:367 Broker/(3735:4247): Envío de un mensaje a un suscriptor socket: 5 (tamaño: 25)
+[DEBUG] 23:49:18:368 Broker/(3735:4247): Se recibio confirmacion de recepcion del proceso: 5
+[INFO] 23:49:23:369 Broker/(3735:4250): Nueva conexion
+[INFO] 23:49:23:369 Broker/(3735:4250): Llegada de un nuevo mensaje a la cola de mensajes CAUP
+[DEBUG] 23:49:23:369 Broker/(3735:4250): Llegada de un nuevo mensaje CAUGHT_POKEMON=[id|confirmacion]=[28|1]
+[INFO] 23:49:23:369 Broker/(3735:4250): Almacenamiento de CAUGHT_POKEMON en memoria, posicion: 48
+[DEBUG] 23:49:23:370 Broker/(3735:4250): Se envia al Game Boy confirmacion de recepcion de mensaje.
+[DEBUG] 23:49:23:370 Broker/(3735:4250): broker_CAUP
+[DEBUG] 23:49:23:370 Broker/(3735:4250): ----------------------> generar_lista_suscriptos 2
+[DEBUG] 23:49:23:370 Broker/(3735:4250): serializar caught pokemon
+[DEBUG] 23:49:23:370 Broker/(3735:4250): Envio de un mensaje CAUGHT [id|confirmacion]=[28|1]
+[INFO] 23:49:23:371 Broker/(3735:4252): Envío de un mensaje a un suscriptor socket: 27 (tamaño: 8)
+[DEBUG] 23:49:23:371 Broker/(3735:4252): Se recibio confirmacion de recepcion del proceso: 27
+[INFO] 23:49:23:371 Broker/(3735:4251): Envío de un mensaje a un suscriptor socket: 18 (tamaño: 8)
+[DEBUG] 23:49:23:371 Broker/(3735:4251): Se recibio confirmacion de recepcion del proceso: 18
